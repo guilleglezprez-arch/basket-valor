@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Basket Valor</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#070d1c">
+<style>
+:root{--bg:#070d1c;--card:#101a33;--card2:#16223f;--ink:#f1f5ff;--mute:#8d9bbd;--line:#243256;--or:#ff7a1a;--bl:#2f8bff;--gr:#22e07a;--rd:#ff5d73}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font:16px/1.4 "Avenir Next","Segoe UI",system-ui,sans-serif;background:radial-gradient(900px 420px at 85% -80px,#ff7a1a33,transparent),radial-gradient(800px 420px at -10% 0,#2f8bff33,transparent),var(--bg);background-attachment:fixed;padding:env(safe-area-inset-top) 0 calc(86px + env(safe-area-inset-bottom))}
+.wrap{max-width:720px;margin:auto;padding:0 14px}
+header{display:flex;align-items:center;gap:12px;padding:16px 0 6px}
+header img{width:52px;height:52px;border-radius:14px;box-shadow:0 0 22px #2f8bff55}
+h1{margin:0;font:900 30px/1 "Avenir Next Condensed","Arial Narrow",system-ui,sans-serif;letter-spacing:1px}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--or),#ffb23f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--mute);font-size:13px}
+h3{margin:18px 0 8px;font:800 20px/1 "Avenir Next Condensed","Arial Narrow",system-ui,sans-serif;letter-spacing:.5px}
+.demo{background:#22e07a14;border:1px dashed var(--gr);color:#b9f5d3;padding:9px 12px;border-radius:12px;font-size:13px;margin:10px 0}
+.strip{display:flex;gap:10px;overflow-x:auto;padding:2px 2px 10px;scroll-snap-type:x mandatory}
+.top{flex:0 0 220px;scroll-snap-align:start;border-radius:16px;padding:12px;background:linear-gradient(145deg,#12315a,#1b1250);border:1px solid #2f8bff66;box-shadow:0 0 22px #2f8bff22}
+.top small{color:var(--mute)}.top b{display:block;margin:2px 0 8px}
+.top .o{font:900 28px/1 "Avenir Next Condensed","Arial Narrow",system-ui,sans-serif;color:var(--or)}
+.game{position:relative;background:var(--card);border:1px solid var(--line);border-radius:20px;margin:12px 0;overflow:hidden}
+.vs{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px;padding:16px 12px 10px;background:linear-gradient(90deg,var(--hc,#2f8bff)33,transparent 40%,transparent 60%,var(--ac,#ff7a1a)33)}
+.team{text-align:center;font-weight:700;font-size:14px}
+.badge{position:relative;width:64px;height:64px;margin:0 auto 6px;border-radius:50%;display:grid;place-items:center;font:900 20px/1 "Avenir Next Condensed","Arial Narrow",sans-serif;color:#fff;background:var(--c);box-shadow:0 0 20px var(--c)}
+.badge img{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);object-fit:contain;background:#fff;border-radius:50%;padding:4px}
+.mid{text-align:center;color:var(--mute);font-size:12px}.mid b{display:block;color:var(--ink);font:900 22px/1 "Avenir Next Condensed","Arial Narrow",sans-serif}
+.note{margin:0;padding:0 14px 8px;color:var(--mute);font-size:13px}
+.pick{padding:11px 14px;border-top:1px solid var(--line)}
+.pick.value{background:linear-gradient(90deg,#22e07a1c,transparent);box-shadow:inset 4px 0 0 var(--gr)}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.mk{color:var(--mute);font-size:12px}
+.odds{font:900 26px/1 "Avenir Next Condensed","Arial Narrow",sans-serif;background:#ff7a1a22;color:var(--or);border:1px solid #ff7a1a66;padding:5px 11px;border-radius:12px}
+.tag{margin-left:6px;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:800;background:var(--gr);color:#04210f}
+.bar{position:relative;height:8px;border-radius:9px;background:#0b1328;margin:9px 0 4px;overflow:visible}
+.bar i{display:block;height:100%;border-radius:9px;background:linear-gradient(90deg,var(--bl),var(--gr))}
+.bar u{position:absolute;top:-4px;width:3px;height:16px;background:#fff;border-radius:2px;opacity:.9}
+.why{margin-top:9px;padding:10px 12px;border-radius:12px;background:#22e07a14;border:1px solid #22e07a55;font-size:13px}.why b{color:var(--gr);display:block;margin-bottom:4px}.why p{margin:0;color:#d4e3ff}
+.saldo{border-radius:20px;padding:18px;text-align:center;border:1px solid var(--line);background:var(--card)}.saldo small{display:block;color:var(--mute);font-size:13px}.saldo strong{display:block;font:900 48px/1.15 "Avenir Next Condensed","Arial Narrow",sans-serif}.saldo.pos{border-color:#22e07a88;box-shadow:0 0 28px #22e07a33}.saldo.pos strong{color:var(--gr)}.saldo.neg{border-color:#ff5d7388;box-shadow:0 0 28px #ff5d7333}.saldo.neg strong{color:var(--rd)}
+.tag.rec{background:var(--bl);color:#fff}.why.rec{background:#2f8bff14;border-color:#2f8bff55}.why.rec p{color:var(--mute)}
+.leg{font-size:12px;color:var(--mute)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.stats div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;text-align:center;font-size:12px;color:var(--mute)}
+.stats strong{display:block;font:900 24px/1.1 "Avenir Next Condensed","Arial Narrow",sans-serif;color:var(--ink)}
+.lg{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:8px;padding:10px 14px}
+.won{color:var(--gr)}.lost{color:var(--rd)}
+.empty,.foot{color:var(--mute);text-align:center;font-size:13px;padding:18px 8px}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;gap:8px;justify-content:center;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:#070d1ccc;backdrop-filter:blur(14px);border-top:1px solid var(--line)}
+nav button{flex:1;max-width:220px;padding:9px 6px;border:1px solid var(--line);background:var(--card);color:var(--mute);border-radius:14px;font:inherit;font-weight:700;cursor:pointer}
+nav button span{display:block;font-size:20px}
+nav button[aria-selected=true]{color:#fff;border-color:transparent;background:linear-gradient(135deg,var(--or),#d9361e);box-shadow:0 0 18px #ff7a1a66}
+button:focus-visible{outline:3px solid var(--bl);outline-offset:2px}
+#install{display:none;margin:6px 0}
+#ib{width:100%;padding:11px;border:0;border-radius:12px;font:inherit;font-weight:800;color:#fff;background:linear-gradient(90deg,var(--bl),#7a4dff)}
+</style></head><body>
+<div class="wrap">
+<header><img src="icon-192.png" alt="Logo de Basket Valor"><div><h1>BASKET <em>VALOR</em></h1><div class="sub" id="upd">Cargando…</div></div></header>
+<div id="install"><button id="ib">Instalar en el móvil</button></div>
+<main id="m"></main>
+<p class="foot">Las probabilidades son estimaciones, no garantías. Solo mayores de 18. Juega con responsabilidad.</p>
+</div>
+<nav role="tablist">
+<button role="tab" data-t="nba" aria-selected="true"><span>🏀</span>NBA</button>
+<button role="tab" data-t="euroleague" aria-selected="false"><span>🏆</span>Euroliga</button>
+<button role="tab" data-t="log" aria-selected="false"><span>📈</span>Registro</button>
+</nav>
+<script>
+let MIN_EDGE=5,MIN_PROB=55;let D=null,tab='nba';
+const fd=s=>new Date(s).toLocaleString('es-ES',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+const hr=s=>new Date(s).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
+const P=n=>Math.round(n)+'%';
+const info=p=>{const imp=100/p.odds,edge=p.prob-imp;return{imp,edge,val:edge>=MIN_EDGE&&p.prob>=MIN_PROB}};
+const badge=t=>`<div class="badge" style="--c:${t.color}">${t.abbr}${t.logo?`<img src="${t.logo}" alt="" loading="lazy" onerror="this.remove()">`:''}</div>`;
+function pick(p){
+  const i=info(p),ev=(p.prob/100*p.odds-1)*100;
+  const why=!i.val&&p.rec?`<div class="why rec"><p>${p.why}</p></div>`:i.val?`<div class="why"><b>Valor: +${i.edge.toFixed(1)} puntos de ventaja · +${ev.toFixed(0)}% de beneficio esperado por euro apostado</b><p>${p.why||'Sin explicación disponible para esta apuesta.'}</p></div>`:'';
+  return `<div class="pick${i.val?' value':''}"><div class="row"><div><span class="mk">${p.market}</span><br><b>${p.selection}</b>${i.val?`<span class="tag">VALOR +${i.edge.toFixed(1)}</span>`:p.rec?'<span class="tag rec">Recomendada</span>':''}</div><div class="odds">${p.odds.toFixed(2)}</div></div>
+  <div class="bar"><i style="width:${p.prob}%"></i><u style="left:calc(${i.imp}% - 1px)" title="Probabilidad que implica la cuota"></u></div>
+  <div class="leg">Otras casas estiman ${P(p.prob)} · Winamax implica ${P(i.imp)} (marca blanca)</div>${why}</div>`;
+}
+function game(g){
+  return `<section class="game"><div class="vs" style="--hc:${g.home.color};--ac:${g.away.color}"><div class="team">${badge(g.home)}${g.home.name}</div><div class="mid"><b>VS</b>${fd(g.time)}</div><div class="team">${badge(g.away)}${g.away.name}</div></div>${g.note?`<p class="note">${g.note}</p>`:''}${g.picks.map(pick).join('')}</section>`;
+}
+function games(k){
+  const G=D.leagues[k]||[];if(!G.length)return '<p class="empty">No hay partidos con recomendaciones hoy.</p>';
+  const tops=G.flatMap(g=>g.picks.map(p=>({g,p,i:info(p)}))).filter(x=>x.i.val).sort((a,b)=>b.i.edge-a.i.edge).slice(0,6);
+  const strip=tops.length?`<h3>Mejores valores del día</h3><div class="strip">${tops.map(x=>`<div class="top"><small>${x.g.home.abbr} – ${x.g.away.abbr} · ${hr(x.g.time)}</small><b>${x.p.selection}</b><div class="row"><span class="o">${x.p.odds.toFixed(2)}</span><span class="tag">+${x.i.edge.toFixed(1)}</span></div></div>`).join('')}</div>`:'';
+  return strip+'<h3>Partidos</h3>'+G.map(game).join('');
+}
+function log(){
+  const L=D.log||[];if(!L.length)return '<p class="empty">Aún no hay apuestas simuladas registradas.</p>';
+  const st=D.stake||10,E={style:'currency',currency:'EUR'};
+  const M=n=>n.toLocaleString('es-ES',{...E,signDisplay:'always'}),F=n=>n.toLocaleString('es-ES',E);
+  let bal=0;
+  const rows=L.slice().sort((a,b)=>a.date<b.date?-1:1).map(l=>{const pr=l.result==='won'?st*(l.odds-1):l.result==='lost'?-st:0;bal+=pr;return{...l,pr,bal}});
+  const d=rows.filter(l=>l.result==='won'||l.result==='lost'),w=d.filter(l=>l.result==='won').length,pend=rows.filter(l=>l.result==='pending').length;
+  const staked=d.length*st,ret=d.filter(l=>l.result==='won').reduce((a,l)=>a+st*l.odds,0);
+  return `<h3>Saldo simulado</h3><div class="saldo ${bal>=0?'pos':'neg'}"><small>Apostando ${F(st)} a cada apuesta recomendada</small><strong>${M(bal)}</strong><small>${F(ret)} devueltos − ${F(staked)} apostados${pend?' · '+pend+' pendiente'+(pend>1?'s':''):''}</small></div>
+  <div class="stats"><div><strong>${F(staked)}</strong>apostado</div><div><strong>${F(ret)}</strong>devuelto</div><div><strong>${w}/${d.length}</strong>acertadas</div></div><h3>Historial</h3>`+
+  rows.reverse().map(l=>`<div class="lg"><div class="row"><div><span class="mk">${l.date} · ${l.match||''}</span><br><b>${l.pick}</b></div><b class="${l.result}">${l.result==='pending'?'Pendiente':l.result==='void'?'Anulada':M(l.pr)}</b></div><div class="leg">Cuota ${l.odds.toFixed(2)} · otras casas estiman ${P(l.prob)} · saldo acumulado ${M(l.bal)}</div></div>`).join('');
+}
+function render(){
+  document.querySelectorAll('nav button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===tab));
+  if(D)document.getElementById('m').innerHTML=(D.demo?'<div class="demo">Datos de demostración: equipos y jugadores reales, pero partidos, cuotas, bajas y probabilidades inventados para probar el diseño.</div>':'')+(tab==='log'?log():games(tab));
+}
+document.querySelector('nav').onclick=e=>{const t=e.target.closest('button')?.dataset.t;if(t){tab=t;render();scrollTo(0,0)}};
+fetch('data/picks.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{D=j;MIN_EDGE=j.min_edge??5;MIN_PROB=j.min_prob??55;upd.textContent=j.updated?'Actualizado: '+fd(j.updated):'Esperando la primera actualización';render()}).catch(()=>{upd.textContent='Sin conexión y sin datos guardados.'});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+let ev;addEventListener('beforeinstallprompt',e=>{e.preventDefault();ev=e;install.style.display='block'});
+ib.onclick=async()=>{if(ev){ev.prompt();await ev.userChoice;install.style.display='none'}};
+</script></body></html>
