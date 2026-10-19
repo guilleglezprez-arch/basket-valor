@@ -3,13 +3,13 @@
  "stake": 10,
  "min_edge": 3.0,
  "min_prob": 50.0,
- "updated": "2026-10-19T23:09:18.090757+00:00",
+ "updated": "2026-10-19T23:21:12.891683+00:00",
  "leagues": {
   "nba": [
    {
     "id": "26b036ff107f3c658258eaf4a6f26228",
     "time": "2026-10-20T19:00:00Z",
-    "note": "Bajas y dudas — Pistons: Taurean Prince (duda). Celtics: Devin Carter (baja). Sin ventajas frente al resto de casas.",
+    "note": "Bajas y dudas — Pistons: Taurean Prince (duda). Celtics: Devin Carter (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "Detroit Pistons",
      "color": "#d64149",
@@ -27,7 +27,7 @@
    {
     "id": "2b042ddad3d3c6c6fe5b7005dc26c775",
     "time": "2026-10-20T23:00:00Z",
-    "note": "Bajas y dudas — 76ers: Dean Wade (duda), Adem Bona (duda), Anfernee Simons (duda), Tacko Fall (baja). Sin ventajas frente al resto de casas.",
+    "note": "Bajas y dudas — 76ers: Dean Wade (duda), Adem Bona (duda), Anfernee Simons (duda), Tacko Fall (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "New York Knicks",
      "color": "#41d6cf",
@@ -40,12 +40,28 @@
      "abbr": "PHI",
      "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
     },
-    "picks": []
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana New York Knicks",
+      "odds": 1.49,
+      "prob": 61.7,
+      "edge": -5.4,
+      "k": [
+       "h2h",
+       "New York Knicks",
+       null,
+       null
+      ],
+      "rec": true,
+      "why": "Las otras casas le dan un 62% de probabilidad, pero Winamax paga 1.49 (implica un 67%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ]
    },
    {
     "id": "bccd283de56915e29af1788beb0abfc9",
     "time": "2026-10-21T01:30:00Z",
-    "note": "Bajas y dudas — Spurs: Tobias Harris (baja), Jayden Quaintance (baja). Thunder: Thomas Sorber (baja), Nikola Topic (baja), Otega Oweh (baja). Sin ventajas frente al resto de casas.",
+    "note": "Bajas y dudas — Spurs: Tobias Harris (baja), Jayden Quaintance (baja). Thunder: Thomas Sorber (baja), Nikola Topic (baja), Otega Oweh (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "San Antonio Spurs",
      "color": "#41a2d6",
@@ -59,9 +75,94 @@
      "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
     },
     "picks": []
+   },
+   {
+    "id": "164cc0396837d5ff433215ffd3279283",
+    "time": "2026-10-21T23:00:00Z",
+    "note": "Bajas y dudas — Wizards: AJ Dybantsa (duda), Tristan Vukcevic (baja), Jamir Watkins (baja). Bucks: Jericho Sims (duda), Nate Ament (duda). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Washington Wizards",
+     "color": "#d6419d",
+     "abbr": "WAS",
+     "logo": "https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Milwaukee Bucks",
+     "color": "#417ad6",
+     "abbr": "MIL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Washington Wizards",
+      "odds": 1.47,
+      "prob": 63.7,
+      "edge": -4.3,
+      "k": [
+       "h2h",
+       "Washington Wizards",
+       null,
+       null
+      ],
+      "rec": true,
+      "why": "Las otras casas le dan un 64% de probabilidad, pero Winamax paga 1.47 (implica un 68%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ]
+   },
+   {
+    "id": "85e6e4e2404ef7268659739997758da1",
+    "time": "2026-10-21T23:10:00Z",
+    "note": "Bajas y dudas — Magic: Anthony Black (duda), Franz Wagner (duda), Jase Richardson (duda), Noah Penda (baja). Hawks: Mouhamed Gueye (baja), Henri Veesaar (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Orlando Magic",
+     "color": "#d6d441",
+     "abbr": "ORL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Atlanta Hawks",
+     "color": "#d67a41",
+     "abbr": "ATL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Orlando Magic",
+      "odds": 1.66,
+      "prob": 55.9,
+      "edge": -4.3,
+      "k": [
+       "h2h",
+       "Orlando Magic",
+       null,
+       null
+      ],
+      "rec": true,
+      "why": "Las otras casas le dan un 56% de probabilidad, pero Winamax paga 1.66 (implica un 60%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ]
    }
   ],
-  "euroleague": []
+  "euroleague": [
+   {
+    "id": "9c5306a57d7bb542a9a1392fbeea109f",
+    "time": "2026-10-21T16:00:00Z",
+    "note": "Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Hapoel Tel Aviv",
+     "color": "#41ccd6",
+     "abbr": "HAP"
+    },
+    "away": {
+     "name": "Virtus Segafredo Bologna",
+     "color": "#cad641",
+     "abbr": "VIR"
+    },
+    "picks": []
+   }
+  ]
  },
  "log": []
 }
