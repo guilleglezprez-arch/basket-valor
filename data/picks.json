@@ -1,0 +1,32 @@
+{"demo":true,"stake":10,"updated":"2026-10-20T08:00:00Z",
+"leagues":{
+"nba":[
+{"time":"2026-10-21T01:00:00Z","note":"Sin Karl-Anthony Towns, Nueva York pierde un pívot titular y su ataque depende más de Brunson.",
+ "home":{"name":"Boston Celtics","abbr":"BOS","color":"#00a651","logo":"https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"},
+ "away":{"name":"New York Knicks","abbr":"NYK","color":"#f58426","logo":"https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"},
+ "picks":[
+ {"market":"Total de puntos","selection":"Más de 218,5","odds":1.90,"prob":60,"why":"Sin Towns, Nueva York pierde rebote y protección del aro, y ha encajado más puntos en sus últimos partidos como visitante. Boston anota mucho en casa. La cuota implica un 53% de probabilidad y el modelo estima un 60%."},
+ {"market":"Puntos de jugador","selection":"Jalen Brunson más de 27,5","odds":1.85,"prob":62,"why":"Cuando Towns no juega, Brunson sube de unos 21 a unos 26 tiros por partido. La línea de la casa aún no recoge ese aumento de protagonismo."},
+ {"market":"Resultado","selection":"Gana Boston","odds":1.55,"prob":64}]},
+{"time":"2026-10-21T03:30:00Z","note":"Partido igualado, sin ventaja clara.",
+ "home":{"name":"Los Angeles Lakers","abbr":"LAL","color":"#8b5cf6","logo":"https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"},
+ "away":{"name":"Golden State Warriors","abbr":"GSW","color":"#ffc72c","logo":"https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"},
+ "picks":[
+ {"market":"Hándicap","selection":"Lakers -2,5","odds":1.90,"prob":50},
+ {"market":"Rebotes de jugador","selection":"LeBron James más de 7,5","odds":1.95,"prob":54}]}],
+"euroleague":[
+{"time":"2026-10-21T19:00:00Z","note":"Dos bases de rotación del Real Madrid están en duda y se espera un partido de ritmo bajo.",
+ "home":{"name":"Real Madrid","abbr":"RMB","color":"#a78bfa","logo":"https://logotyp.us/file/real-madrid.svg"},
+ "away":{"name":"FC Barcelona","abbr":"BAR","color":"#ef4565","logo":"https://logotyp.us/file/fc-barcelona.svg"},
+ "picks":[
+ {"market":"Total de puntos","selection":"Menos de 164,5","odds":1.88,"prob":59,"why":"Ambos equipos han bajado su ritmo en las últimas jornadas y la media de puntos de sus enfrentamientos directos está por debajo de la línea. La cuota implica un 53% y el modelo estima un 59%."},
+ {"market":"Asistencias de jugador","selection":"Facundo Campazzo más de 5,5","odds":2.05,"prob":56,"why":"Con dos bases de rotación en duda, Campazzo asume más creación de juego. En sus últimos partidos como principal base supera las 5,5 asistencias con frecuencia, y la cuota de 2,05 paga más de lo que merece."}]},
+{"time":"2026-10-22T18:30:00Z","note":"Derbi griego con ligera ventaja local.",
+ "home":{"name":"Olympiacos","abbr":"OLY","color":"#ff4d4d","logo":"https://logotyp.us/file/olympiacos-bc.svg"},
+ "away":{"name":"Panathinaikos","abbr":"PAO","color":"#22c55e","logo":"https://logotyp.us/file/panathinaikos-bc.svg"},
+ "picks":[{"market":"Resultado","selection":"Gana Olympiacos","odds":1.72,"prob":57}]}]},
+"log":[
+{"date":"2026-10-17","match":"Lakers – Warriors","pick":"Más de 224,5","odds":1.90,"prob":57,"result":"won"},
+{"date":"2026-10-18","match":"Real Madrid – Barcelona","pick":"Gana Real Madrid","odds":1.70,"prob":62,"result":"lost"},
+{"date":"2026-10-19","match":"Celtics – Knicks","pick":"Jalen Brunson más de 26,5 puntos","odds":2.00,"prob":58,"result":"won"},
+{"date":"2026-10-20","match":"Olympiacos – Panathinaikos","pick":"Menos de 158,5","odds":1.85,"prob":58,"result":"pending"}]}
