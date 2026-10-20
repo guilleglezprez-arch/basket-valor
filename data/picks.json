@@ -3,7 +3,9 @@
  "stake": 10,
  "min_edge": 3.0,
  "min_prob": 50.0,
- "updated": "2026-10-19T23:21:12.891683+00:00",
+ "log_edge": 5.0,
+ "log_prob": 55.0,
+ "updated": "2026-10-20T13:17:38.037855+00:00",
  "leagues": {
   "nba": [
    {
@@ -12,17 +14,29 @@
     "note": "Bajas y dudas — Pistons: Taurean Prince (duda). Celtics: Devin Carter (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "Detroit Pistons",
-     "color": "#d64149",
+     "color": "#c8102e",
      "abbr": "DET",
      "logo": "https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg"
     },
     "away": {
      "name": "Boston Celtics",
-     "color": "#4170d6",
+     "color": "#007a33",
      "abbr": "BOS",
      "logo": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
     },
-    "picks": []
+    "picks": [],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Taurean Prince (duda)"
+     ],
+     "away": [
+      "Devin Carter (baja)"
+     ]
+    }
    },
    {
     "id": "2b042ddad3d3c6c6fe5b7005dc26c775",
@@ -30,13 +44,13 @@
     "note": "Bajas y dudas — 76ers: Dean Wade (duda), Adem Bona (duda), Anfernee Simons (duda), Tacko Fall (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "New York Knicks",
-     "color": "#41d6cf",
+     "color": "#006bb6",
      "abbr": "NYK",
      "logo": "https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"
     },
     "away": {
      "name": "Philadelphia 76ers",
-     "color": "#d6415f",
+     "color": "#006bb6",
      "abbr": "PHI",
      "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
     },
@@ -44,9 +58,9 @@
      {
       "market": "Resultado",
       "selection": "Gana New York Knicks",
-      "odds": 1.49,
-      "prob": 61.7,
-      "edge": -5.4,
+      "odds": 1.52,
+      "prob": 61.8,
+      "edge": -4.0,
       "k": [
        "h2h",
        "New York Knicks",
@@ -54,9 +68,23 @@
        null
       ],
       "rec": true,
-      "why": "Las otras casas le dan un 62% de probabilidad, pero Winamax paga 1.49 (implica un 67%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+      "v": "pass",
+      "why": "Las otras casas le dan un 62% de probabilidad, pero Winamax paga 1.52 (implica un 66%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
      }
-    ]
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [],
+     "away": [
+      "Dean Wade (duda)",
+      "Adem Bona (duda)",
+      "Anfernee Simons (duda)",
+      "Tacko Fall (baja)"
+     ]
+    }
    },
    {
     "id": "bccd283de56915e29af1788beb0abfc9",
@@ -64,17 +92,32 @@
     "note": "Bajas y dudas — Spurs: Tobias Harris (baja), Jayden Quaintance (baja). Thunder: Thomas Sorber (baja), Nikola Topic (baja), Otega Oweh (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "San Antonio Spurs",
-     "color": "#41a2d6",
+     "color": "#8a9299",
      "abbr": "SAS",
      "logo": "https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"
     },
     "away": {
      "name": "Oklahoma City Thunder",
-     "color": "#d6cf41",
+     "color": "#007ac1",
      "abbr": "OKC",
      "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
     },
-    "picks": []
+    "picks": [],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Tobias Harris (baja)",
+      "Jayden Quaintance (baja)"
+     ],
+     "away": [
+      "Thomas Sorber (baja)",
+      "Nikola Topic (baja)",
+      "Otega Oweh (baja)"
+     ]
+    }
    },
    {
     "id": "164cc0396837d5ff433215ffd3279283",
@@ -82,13 +125,13 @@
     "note": "Bajas y dudas — Wizards: AJ Dybantsa (duda), Tristan Vukcevic (baja), Jamir Watkins (baja). Bucks: Jericho Sims (duda), Nate Ament (duda). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "Washington Wizards",
-     "color": "#d6419d",
+     "color": "#e31837",
      "abbr": "WAS",
      "logo": "https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg"
     },
     "away": {
      "name": "Milwaukee Bucks",
-     "color": "#417ad6",
+     "color": "#00471b",
      "abbr": "MIL",
      "logo": "https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
     },
@@ -97,8 +140,8 @@
       "market": "Resultado",
       "selection": "Gana Washington Wizards",
       "odds": 1.47,
-      "prob": 63.7,
-      "edge": -4.3,
+      "prob": 64.1,
+      "edge": -3.9,
       "k": [
        "h2h",
        "Washington Wizards",
@@ -106,9 +149,25 @@
        null
       ],
       "rec": true,
+      "v": "pass",
       "why": "Las otras casas le dan un 64% de probabilidad, pero Winamax paga 1.47 (implica un 68%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
      }
-    ]
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "AJ Dybantsa (duda)",
+      "Tristan Vukcevic (baja)",
+      "Jamir Watkins (baja)"
+     ],
+     "away": [
+      "Jericho Sims (duda)",
+      "Nate Ament (duda)"
+     ]
+    }
    },
    {
     "id": "85e6e4e2404ef7268659739997758da1",
@@ -116,13 +175,13 @@
     "note": "Bajas y dudas — Magic: Anthony Black (duda), Franz Wagner (duda), Jase Richardson (duda), Noah Penda (baja). Hawks: Mouhamed Gueye (baja), Henri Veesaar (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "Orlando Magic",
-     "color": "#d6d441",
+     "color": "#0077c0",
      "abbr": "ORL",
      "logo": "https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg"
     },
     "away": {
      "name": "Atlanta Hawks",
-     "color": "#d67a41",
+     "color": "#e03a3e",
      "abbr": "ATL",
      "logo": "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"
     },
@@ -130,9 +189,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Orlando Magic",
-      "odds": 1.66,
-      "prob": 55.9,
-      "edge": -4.3,
+      "odds": 1.72,
+      "prob": 55.5,
+      "edge": -2.6,
       "k": [
        "h2h",
        "Orlando Magic",
@@ -140,9 +199,431 @@
        null
       ],
       "rec": true,
-      "why": "Las otras casas le dan un 56% de probabilidad, pero Winamax paga 1.66 (implica un 60%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+      "v": "pass",
+      "why": "Las otras casas le dan un 56% de probabilidad, pero Winamax paga 1.72 (implica un 58%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
      }
-    ]
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Anthony Black (duda)",
+      "Franz Wagner (duda)",
+      "Jase Richardson (duda)",
+      "Noah Penda (baja)"
+     ],
+     "away": [
+      "Mouhamed Gueye (baja)",
+      "Henri Veesaar (baja)"
+     ]
+    }
+   },
+   {
+    "id": "47cc511bb5ce50f715e3625ce5ef77ee",
+    "time": "2026-10-21T23:30:00Z",
+    "note": "Bajas y dudas — Nets: Tyler Bilodeau (baja). Hornets: Coby White (duda), Kon Knueppel (duda), Grayson Allen (duda), Moussa Diabate (duda). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Brooklyn Nets",
+     "color": "#5b5f66",
+     "abbr": "BKN",
+     "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Charlotte Hornets",
+     "color": "#00788c",
+     "abbr": "CHA",
+     "logo": "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Brooklyn Nets",
+      "odds": 1.64,
+      "prob": 57.3,
+      "edge": -3.7,
+      "k": [
+       "h2h",
+       "Brooklyn Nets",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Las otras casas le dan un 57% de probabilidad, pero Winamax paga 1.64 (implica un 61%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Tyler Bilodeau (baja)"
+     ],
+     "away": [
+      "Coby White (duda)",
+      "Kon Knueppel (duda)",
+      "Grayson Allen (duda)",
+      "Moussa Diabate (duda)"
+     ]
+    }
+   },
+   {
+    "id": "60431a347feac3f1c7ed925b8b769ec5",
+    "time": "2026-10-21T23:40:00Z",
+    "note": "Bajas y dudas — Raptors: Nate Bittle (duda). Bulls: Zach Collins (duda), Nic Claxton (baja), Tobe Awaka (duda), Isaac Okoro (duda). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Toronto Raptors",
+     "color": "#ce1141",
+     "abbr": "TOR",
+     "logo": "https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Chicago Bulls",
+     "color": "#ce1141",
+     "abbr": "CHI",
+     "logo": "https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg"
+    },
+    "picks": [],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Nate Bittle (duda)"
+     ],
+     "away": [
+      "Zach Collins (duda)",
+      "Nic Claxton (baja)",
+      "Tobe Awaka (duda)",
+      "Isaac Okoro (duda)"
+     ]
+    }
+   },
+   {
+    "id": "93cdd8e4ade5697cfccf42ee42c4d207",
+    "time": "2026-10-21T23:40:00Z",
+    "note": "Bajas y dudas — Heat: Dru Smith (duda), Bam Adebayo (duda), Pelle Larsson (duda). Timberwolves: Rocco Zikarsky (duda), Donte DiVincenzo (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Miami Heat",
+     "color": "#98002e",
+     "abbr": "MIA",
+     "logo": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Minnesota Timberwolves",
+     "color": "#236192",
+     "abbr": "MIN",
+     "logo": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg"
+    },
+    "picks": [],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Dru Smith (duda)",
+      "Bam Adebayo (duda)",
+      "Pelle Larsson (duda)"
+     ],
+     "away": [
+      "Rocco Zikarsky (duda)",
+      "Donte DiVincenzo (baja)"
+     ]
+    }
+   },
+   {
+    "id": "fd33c09c84ab4c2fe6955d59f8dc5dd2",
+    "time": "2026-10-22T00:10:00Z",
+    "note": "Bajas y dudas — Pacers: Jarace Walker (duda), T.J. McConnell (duda), Aaron Nesmith (duda), Johnny Furphy (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "New Orleans Pelicans",
+     "color": "#85714d",
+     "abbr": "NOP",
+     "logo": "https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Indiana Pacers",
+     "color": "#fdbb30",
+     "abbr": "IND",
+     "logo": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Indiana Pacers",
+      "odds": 1.6,
+      "prob": 59.3,
+      "edge": -3.2,
+      "k": [
+       "h2h",
+       "Indiana Pacers",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Las otras casas le dan un 59% de probabilidad, pero Winamax paga 1.60 (implica un 62%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [],
+     "away": [
+      "Jarace Walker (duda)",
+      "T.J. McConnell (duda)",
+      "Aaron Nesmith (duda)",
+      "Johnny Furphy (baja)"
+     ]
+    }
+   },
+   {
+    "id": "e6769c813dd625b622df94c14a562ce2",
+    "time": "2026-10-22T00:10:00Z",
+    "note": "Bajas y dudas — Grizzlies: Jerami Grant (duda), GG Jackson (duda), Isaiah Stewart (baja). Jazz: Blake Hinson (duda), Trey Alexander (duda), Kyle Filipowski (duda), Jusuf Nurkic (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Memphis Grizzlies",
+     "color": "#5d76a9",
+     "abbr": "MEM",
+     "logo": "https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Utah Jazz",
+     "color": "#f9a01b",
+     "abbr": "UTA",
+     "logo": "https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg"
+    },
+    "picks": [],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Jerami Grant (duda)",
+      "GG Jackson (duda)",
+      "Isaiah Stewart (baja)"
+     ],
+     "away": [
+      "Blake Hinson (duda)",
+      "Trey Alexander (duda)",
+      "Kyle Filipowski (duda)",
+      "Jusuf Nurkic (baja)"
+     ]
+    }
+   },
+   {
+    "id": "af2f084075391e55ba2a596e7846bb40",
+    "time": "2026-10-22T00:40:00Z",
+    "note": "Bajas y dudas — Mavericks: Santi Aldama (duda), Tarik Biberovic (duda), Jett Howard (duda), Dereck Lively II (duda). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Houston Rockets",
+     "color": "#ce1141",
+     "abbr": "HOU",
+     "logo": "https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Dallas Mavericks",
+     "color": "#00538c",
+     "abbr": "DAL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Houston Rockets",
+      "odds": 1.25,
+      "prob": 75.4,
+      "edge": -4.6,
+      "k": [
+       "h2h",
+       "Houston Rockets",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Las otras casas le dan un 75% de probabilidad, pero Winamax paga 1.25 (implica un 80%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [],
+     "away": [
+      "Santi Aldama (duda)",
+      "Tarik Biberovic (duda)",
+      "Jett Howard (duda)",
+      "Dereck Lively II (duda)"
+     ]
+    }
+   },
+   {
+    "id": "6fff70f4bf196dba25060a5775a03b54",
+    "time": "2026-10-22T02:00:00Z",
+    "note": "Bajas y dudas — Lakers: Bronny James (duda), Cameron Carr (duda), Adou Thiero (duda), Collin Sexton (duda). Warriors: Stephen Curry (duda), Kristaps Porzingis (baja), Charles Bassey (duda), Brandin Podziemski (duda). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Los Angeles Lakers",
+     "color": "#552583",
+     "abbr": "LAL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Golden State Warriors",
+     "color": "#1d428a",
+     "abbr": "GSW",
+     "logo": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Los Angeles Lakers",
+      "odds": 1.43,
+      "prob": 66.2,
+      "edge": -3.7,
+      "k": [
+       "h2h",
+       "Los Angeles Lakers",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Las otras casas le dan un 66% de probabilidad, pero Winamax paga 1.43 (implica un 70%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Bronny James (duda)",
+      "Cameron Carr (duda)",
+      "Adou Thiero (duda)",
+      "Collin Sexton (duda)"
+     ],
+     "away": [
+      "Stephen Curry (duda)",
+      "Kristaps Porzingis (baja)",
+      "Charles Bassey (duda)",
+      "Brandin Podziemski (duda)"
+     ]
+    }
+   },
+   {
+    "id": "71e24359951927c356bd8c852fb867dd",
+    "time": "2026-10-22T02:10:00Z",
+    "note": "Bajas y dudas — Blazers: Chris Youngblood (duda), Micah Potter (duda), Jrue Holiday (duda), Shaedon Sharpe (baja). Suns: Luke Kennard (duda), Oso Ighodaro (duda), Mark Williams (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Portland Trail Blazers",
+     "color": "#e03a3e",
+     "abbr": "POR",
+     "logo": "https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Phoenix Suns",
+     "color": "#e56020",
+     "abbr": "PHX",
+     "logo": "https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Portland Trail Blazers",
+      "odds": 1.6,
+      "prob": 59.9,
+      "edge": -2.6,
+      "k": [
+       "h2h",
+       "Portland Trail Blazers",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Las otras casas le dan un 60% de probabilidad, pero Winamax paga 1.60 (implica un 62%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Chris Youngblood (duda)",
+      "Micah Potter (duda)",
+      "Jrue Holiday (duda)",
+      "Shaedon Sharpe (baja)"
+     ],
+     "away": [
+      "Luke Kennard (duda)",
+      "Oso Ighodaro (duda)",
+      "Mark Williams (baja)"
+     ]
+    }
+   },
+   {
+    "id": "f6be3e587d43c3821d8f059c3a1f1967",
+    "time": "2026-10-22T02:40:00Z",
+    "note": "Bajas y dudas — Clippers: Bradley Beal (baja), Max Strus (baja), Yanic Konan Niederhauser (baja), Brandon Ingram (baja). Kings: Ben Simmons (baja), Malik Monk (duda), Dylan Cardwell (baja), Maxime Raynaud (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Los Angeles Clippers",
+     "color": "#c8102e",
+     "abbr": "LAC",
+     "logo": "https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Sacramento Kings",
+     "color": "#5a2d81",
+     "abbr": "SAC",
+     "logo": "https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Los Angeles Clippers",
+      "odds": 1.52,
+      "prob": 62.8,
+      "edge": -3.0,
+      "k": [
+       "h2h",
+       "Los Angeles Clippers",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Las otras casas le dan un 63% de probabilidad, pero Winamax paga 1.52 (implica un 66%): no hay ventaja, es una recomendación por probabilidad y no una apuesta de valor."
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [
+      "Bradley Beal (baja)",
+      "Max Strus (baja)",
+      "Yanic Konan Niederhauser (baja)",
+      "Brandon Ingram (baja)"
+     ],
+     "away": [
+      "Ben Simmons (baja)",
+      "Malik Monk (duda)",
+      "Dylan Cardwell (baja)",
+      "Maxime Raynaud (baja)"
+     ]
+    }
    }
   ],
   "euroleague": [
@@ -152,15 +633,23 @@
     "note": "Sin apuestas de valor; estas son las más probables.",
     "home": {
      "name": "Hapoel Tel Aviv",
-     "color": "#41ccd6",
+     "color": "#d4161c",
      "abbr": "HAP"
     },
     "away": {
      "name": "Virtus Segafredo Bologna",
-     "color": "#cad641",
+     "color": "#3a3a3a",
      "abbr": "VIR"
     },
-    "picks": []
+    "picks": [],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "inj": {
+     "home": [],
+     "away": []
+    }
    }
   ]
  },
