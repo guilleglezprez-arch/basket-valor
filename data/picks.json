@@ -5,7 +5,7 @@
  "min_prob": 50.0,
  "log_edge": 5.0,
  "log_prob": 55.0,
- "updated": "2026-10-21T09:05:31.723879+00:00",
+ "updated": "2026-10-21T09:06:53.316920+00:00",
  "diag": {
   "nba": {
    "partidos": 13,
@@ -218,9 +218,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Brooklyn Nets",
-      "odds": 1.68,
+      "odds": 1.74,
       "prob": 54.3,
-      "edge": -5.2,
+      "edge": -3.2,
       "k": [
        "h2h",
        "Brooklyn Nets",
@@ -229,7 +229,7 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 54%, pero Winamax paga 1.68 (implica un 60%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 54%, pero Winamax paga 1.74 (implica un 57%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
@@ -271,7 +271,7 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Brooklyn Nets, con un 54% de probabilidad de ganar (Winamax paga 1.68).",
+     "Favorito del mercado: Brooklyn Nets, con un 54% de probabilidad de ganar (Winamax paga 1.74).",
      "Hándicap habitual: Brooklyn Nets -2,5 (18 casas).",
      "El mercado espera unos 218,5 puntos en total (18 casas)."
     ],
@@ -308,8 +308,8 @@
       "market": "Resultado",
       "selection": "Gana Toronto Raptors",
       "odds": 1.22,
-      "prob": 77.4,
-      "edge": -4.5,
+      "prob": 77.7,
+      "edge": -4.2,
       "k": [
        "h2h",
        "Toronto Raptors",
@@ -318,7 +318,7 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 77%, pero Winamax paga 1.22 (implica un 82%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 78%, pero Winamax paga 1.22 (implica un 82%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
@@ -360,7 +360,7 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Toronto Raptors, con un 77% de probabilidad de ganar (Winamax paga 1.22).",
+     "Favorito del mercado: Toronto Raptors, con un 78% de probabilidad de ganar (Winamax paga 1.22).",
      "Hándicap habitual: Toronto Raptors -9,5 (16 casas).",
      "El mercado espera unos 236,5 puntos en total (18 casas)."
     ],
