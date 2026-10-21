@@ -5,7 +5,7 @@
  "min_prob": 50.0,
  "log_edge": 5.0,
  "log_prob": 55.0,
- "updated": "2026-10-21T09:06:53.316920+00:00",
+ "updated": "2026-10-21T13:23:40.373130+00:00",
  "diag": {
   "nba": {
    "partidos": 13,
@@ -40,9 +40,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Washington Wizards",
-      "odds": 1.54,
+      "odds": 1.5,
       "prob": 62.0,
-      "edge": -3.0,
+      "edge": -4.7,
       "k": [
        "h2h",
        "Washington Wizards",
@@ -51,39 +51,39 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 62%, pero Winamax paga 1.54 (implica un 65%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 62%, pero Winamax paga 1.50 (implica un 67%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
-      "selection": "Myles Turner más de 10,5",
-      "odds": 1.81,
-      "prob": 52.3,
+      "selection": "Ryan Rollins menos de 17,5",
+      "odds": 1.76,
+      "prob": 53.6,
       "edge": 0,
       "k": [
        "player_points",
-       "Over",
-       "Myles Turner",
-       10.5
+       "Under",
+       "Ryan Rollins",
+       17.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 52% y el mejor precio que he visto es 1.81 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.76 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Puntos de jugador",
-      "selection": "Tyler Herro menos de 22,5",
-      "odds": 1.84,
-      "prob": 51.1,
+      "selection": "Kyshawn George más de 13,5",
+      "odds": 1.83,
+      "prob": 52.8,
       "edge": 0,
       "k": [
        "player_points",
-       "Under",
-       "Tyler Herro",
-       22.5
+       "Over",
+       "Kyshawn George",
+       13.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.84 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.83 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -93,9 +93,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Washington Wizards, con un 62% de probabilidad de ganar (Winamax paga 1.54).",
-     "Hándicap habitual: Washington Wizards -4,5 (16 casas).",
-     "El mercado espera unos 239,5 puntos en total (18 casas)."
+     "Favorito del mercado: Washington Wizards, con un 62% de probabilidad de ganar (Winamax paga 1.50).",
+     "Hándicap habitual: Washington Wizards -4,5 (15 casas).",
+     "El mercado espera unos 239 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -128,9 +128,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Orlando Magic",
-      "odds": 1.66,
-      "prob": 57.0,
-      "edge": -3.2,
+      "odds": 1.7,
+      "prob": 54.5,
+      "edge": -4.3,
       "k": [
        "h2h",
        "Orlando Magic",
@@ -139,13 +139,13 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 57%, pero Winamax paga 1.66 (implica un 60%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 54%, pero Winamax paga 1.70 (implica un 59%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
       "selection": "Jalen Suggs menos de 13,5",
-      "odds": 1.81,
-      "prob": 52.8,
+      "odds": 1.78,
+      "prob": 53.3,
       "edge": 0,
       "k": [
        "player_points",
@@ -154,14 +154,14 @@
        13.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.81 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.78 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Puntos de jugador",
       "selection": "C.J. McCollum más de 16,5",
-      "odds": 1.8,
+      "odds": 1.79,
       "prob": 52.5,
       "edge": 0,
       "k": [
@@ -171,7 +171,7 @@
        16.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 52% y el mejor precio que he visto es 1.80 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.79 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -181,9 +181,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Orlando Magic, con un 57% de probabilidad de ganar (Winamax paga 1.66).",
-     "Hándicap habitual: Orlando Magic -3 (16 casas).",
-     "El mercado espera unos 235,5 puntos en total (18 casas)."
+     "Favorito del mercado: Orlando Magic, con un 55% de probabilidad de ganar (Winamax paga 1.70).",
+     "Hándicap habitual: Orlando Magic -2,5 (15 casas).",
+     "El mercado espera unos 235 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -217,25 +217,25 @@
     "picks": [
      {
       "market": "Resultado",
-      "selection": "Gana Brooklyn Nets",
-      "odds": 1.74,
-      "prob": 54.3,
-      "edge": -3.2,
+      "selection": "Gana Charlotte Hornets",
+      "odds": 1.82,
+      "prob": 51.2,
+      "edge": -3.8,
       "k": [
        "h2h",
-       "Brooklyn Nets",
+       "Charlotte Hornets",
        null,
        null
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 54%, pero Winamax paga 1.74 (implica un 57%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 51%, pero Winamax paga 1.82 (implica un 55%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
       "selection": "Julius Randle menos de 19,5",
-      "odds": 1.77,
-      "prob": 53.1,
+      "odds": 1.78,
+      "prob": 52.7,
       "edge": 0,
       "k": [
        "player_points",
@@ -244,7 +244,7 @@
        19.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.77 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.78 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
@@ -271,9 +271,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Brooklyn Nets, con un 54% de probabilidad de ganar (Winamax paga 1.74).",
-     "Hándicap habitual: Brooklyn Nets -2,5 (18 casas).",
-     "El mercado espera unos 218,5 puntos en total (18 casas)."
+     "Favorito del mercado: Charlotte Hornets, con un 51% de probabilidad de ganar (Winamax paga 1.82).",
+     "Hándicap habitual: Charlotte Hornets -1,5 (17 casas).",
+     "El mercado espera unos 219,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -307,9 +307,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Toronto Raptors",
-      "odds": 1.22,
-      "prob": 77.7,
-      "edge": -4.2,
+      "odds": 1.2,
+      "prob": 78.3,
+      "edge": -5.0,
       "k": [
        "h2h",
        "Toronto Raptors",
@@ -318,19 +318,19 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 78%, pero Winamax paga 1.22 (implica un 82%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 78%, pero Winamax paga 1.20 (implica un 83%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
-      "selection": "Josh Giddey más de 14,5",
+      "selection": "R.J. Barrett menos de 18,5",
       "odds": 1.79,
-      "prob": 53.1,
+      "prob": 52.7,
       "edge": 0,
       "k": [
        "player_points",
-       "Over",
-       "Josh Giddey",
-       14.5
+       "Under",
+       "R.J. Barrett",
+       18.5
       ],
       "ref": true,
       "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.79 en otra casa. No sé si en Winamax habrá ventaja.",
@@ -339,18 +339,18 @@
      },
      {
       "market": "Puntos de jugador",
-      "selection": "Norman Powell menos de 19,5",
-      "odds": 1.83,
-      "prob": 52.1,
+      "selection": "Matas Buzelis menos de 16,5",
+      "odds": 1.79,
+      "prob": 52.7,
       "edge": 0,
       "k": [
        "player_points",
        "Under",
-       "Norman Powell",
-       19.5
+       "Matas Buzelis",
+       16.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 52% y el mejor precio que he visto es 1.83 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.79 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -360,9 +360,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Toronto Raptors, con un 78% de probabilidad de ganar (Winamax paga 1.22).",
-     "Hándicap habitual: Toronto Raptors -9,5 (16 casas).",
-     "El mercado espera unos 236,5 puntos en total (18 casas)."
+     "Favorito del mercado: Toronto Raptors, con un 78% de probabilidad de ganar (Winamax paga 1.20).",
+     "Hándicap habitual: Toronto Raptors -10,5 (15 casas).",
+     "El mercado espera unos 237,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -396,9 +396,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Miami Heat",
-      "odds": 1.8,
-      "prob": 52.2,
-      "edge": -3.3,
+      "odds": 1.78,
+      "prob": 52.0,
+      "edge": -4.2,
       "k": [
        "h2h",
        "Miami Heat",
@@ -407,39 +407,39 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 52%, pero Winamax paga 1.80 (implica un 56%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 52%, pero Winamax paga 1.78 (implica un 56%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Miami Heat -1",
+      "odds": 1.93,
+      "prob": 50.5,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Miami Heat",
+       null,
+       -1.0
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
      },
      {
       "market": "Total de puntos",
-      "selection": "Menos de 243",
-      "odds": 1.91,
+      "selection": "Menos de 239,5",
+      "odds": 1.94,
       "prob": 50.3,
       "edge": 0,
       "k": [
        "totals",
        "Under",
        null,
-       243.0
+       239.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 4 casas le dan un 50% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Miami Heat -1,5",
-      "odds": 1.98,
-      "prob": 49.7,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Miami Heat",
-       null,
-       -1.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 12 casas le dan un 50% y el mejor precio que he visto es 1.98 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 50% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -449,9 +449,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Miami Heat, con un 52% de probabilidad de ganar (Winamax paga 1.80).",
-     "Hándicap habitual: Miami Heat -1,5 (14 casas).",
-     "El mercado espera unos 242,5 puntos en total (16 casas)."
+     "Favorito del mercado: Miami Heat, con un 52% de probabilidad de ganar (Winamax paga 1.78).",
+     "Hándicap habitual: Miami Heat -1,5 (13 casas).",
+     "El mercado espera unos 239,5 puntos en total (15 casas)."
     ],
     "inj": {
      "home": [
@@ -482,9 +482,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Indiana Pacers",
-      "odds": 1.6,
-      "prob": 58.7,
-      "edge": -3.8,
+      "odds": 1.62,
+      "prob": 58.0,
+      "edge": -3.7,
       "k": [
        "h2h",
        "Indiana Pacers",
@@ -493,12 +493,29 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 59%, pero Winamax paga 1.60 (implica un 62%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 58%, pero Winamax paga 1.62 (implica un 62%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Indiana Pacers -2,5",
+      "odds": 1.87,
+      "prob": 51.0,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Indiana Pacers",
+       null,
+       -2.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 3 casas le dan un 51% y el mejor precio que he visto es 1.87 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
      },
      {
       "market": "Total de puntos",
       "selection": "Más de 239,5",
-      "odds": 1.94,
+      "odds": 1.98,
       "prob": 50.1,
       "edge": 0,
       "k": [
@@ -508,24 +525,7 @@
        239.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 16 casas le dan un 50% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Indiana Pacers -3,5",
-      "odds": 2.0,
-      "prob": 50.0,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Indiana Pacers",
-       null,
-       -3.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 18 casas le dan un 50% y el mejor precio que he visto es 2.00 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 14 casas le dan un 50% y el mejor precio que he visto es 1.98 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -535,9 +535,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Indiana Pacers, con un 59% de probabilidad de ganar (Winamax paga 1.60).",
-     "Hándicap habitual: Indiana Pacers -3,5 (18 casas).",
-     "El mercado espera unos 239,5 puntos en total (18 casas)."
+     "Favorito del mercado: Indiana Pacers, con un 58% de probabilidad de ganar (Winamax paga 1.62).",
+     "Hándicap habitual: Indiana Pacers -3,5 (17 casas).",
+     "El mercado espera unos 239,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [],
@@ -568,9 +568,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Memphis Grizzlies",
-      "odds": 1.84,
-      "prob": 51.0,
-      "edge": -3.4,
+      "odds": 1.76,
+      "prob": 52.7,
+      "edge": -4.1,
       "k": [
        "h2h",
        "Memphis Grizzlies",
@@ -579,39 +579,39 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 51%, pero Winamax paga 1.84 (implica un 54%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Memphis Grizzlies +0,5",
-      "odds": 1.87,
-      "prob": 51.0,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Memphis Grizzlies",
-       null,
-       0.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 3 casas le dan un 51% y el mejor precio que he visto es 1.87 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 53%, pero Winamax paga 1.76 (implica un 57%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
-      "selection": "Más de 239,5",
-      "odds": 1.9,
-      "prob": 50.8,
+      "selection": "Más de 241,5",
+      "odds": 1.91,
+      "prob": 50.5,
       "edge": 0,
       "k": [
        "totals",
        "Over",
        null,
-       239.5
+       241.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 5 casas le dan un 51% y el mejor precio que he visto es 1.90 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 6 casas le dan un 51% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Memphis Grizzlies -1,5",
+      "odds": 1.94,
+      "prob": 50.3,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Memphis Grizzlies",
+       null,
+       -1.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 14 casas le dan un 50% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -621,9 +621,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Memphis Grizzlies, con un 51% de probabilidad de ganar (Winamax paga 1.84).",
-     "Hándicap habitual: Memphis Grizzlies -1 (16 casas).",
-     "El mercado espera unos 240,5 puntos en total (18 casas)."
+     "Favorito del mercado: Memphis Grizzlies, con un 53% de probabilidad de ganar (Winamax paga 1.76).",
+     "Hándicap habitual: Memphis Grizzlies -1,5 (15 casas).",
+     "El mercado espera unos 242 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -657,9 +657,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Houston Rockets",
-      "odds": 1.25,
-      "prob": 75.2,
-      "edge": -4.8,
+      "odds": 1.22,
+      "prob": 77.0,
+      "edge": -5.0,
       "k": [
        "h2h",
        "Houston Rockets",
@@ -668,13 +668,13 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 75%, pero Winamax paga 1.25 (implica un 80%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 77%, pero Winamax paga 1.22 (implica un 82%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
       "selection": "Más de 229,5",
-      "odds": 1.82,
-      "prob": 51.8,
+      "odds": 1.9,
+      "prob": 51.3,
       "edge": 0,
       "k": [
        "totals",
@@ -683,24 +683,24 @@
        229.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 52% y el mejor precio que he visto es 1.82 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.90 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Hándicap",
-      "selection": "Houston Rockets -8,5",
-      "odds": 1.91,
-      "prob": 50.8,
+      "selection": "Houston Rockets -9,5",
+      "odds": 1.93,
+      "prob": 51.1,
       "edge": 0,
       "k": [
        "spreads",
        "Houston Rockets",
        null,
-       -8.5
+       -9.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 9 casas le dan un 51% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 8 casas le dan un 51% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -710,9 +710,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Houston Rockets, con un 75% de probabilidad de ganar (Winamax paga 1.25).",
-     "Hándicap habitual: Houston Rockets -8,5 (16 casas).",
-     "El mercado espera unos 230,5 puntos en total (18 casas)."
+     "Favorito del mercado: Houston Rockets, con un 77% de probabilidad de ganar (Winamax paga 1.22).",
+     "Hándicap habitual: Houston Rockets -9,5 (15 casas).",
+     "El mercado espera unos 230,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -747,9 +747,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Los Angeles Lakers",
-      "odds": 1.41,
-      "prob": 66.5,
-      "edge": -4.4,
+      "odds": 1.42,
+      "prob": 66.4,
+      "edge": -4.0,
       "k": [
        "h2h",
        "Los Angeles Lakers",
@@ -758,24 +758,7 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 66%, pero Winamax paga 1.41 (implica un 71%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Los Angeles Lakers -6",
-      "odds": 1.89,
-      "prob": 51.2,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Los Angeles Lakers",
-       null,
-       -6.0
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.89 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 66%, pero Winamax paga 1.42 (implica un 70%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
@@ -790,7 +773,24 @@
        233.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 7 casas le dan un 51% y el mejor precio que he visto es 1.92 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 51% y el mejor precio que he visto es 1.92 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Los Angeles Lakers -6,5",
+      "odds": 1.97,
+      "prob": 49.7,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Los Angeles Lakers",
+       null,
+       -6.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 17 casas le dan un 50% y el mejor precio que he visto es 1.97 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -800,9 +800,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Los Angeles Lakers, con un 67% de probabilidad de ganar (Winamax paga 1.41).",
-     "Hándicap habitual: Los Angeles Lakers -6,5 (18 casas).",
-     "El mercado espera unos 234 puntos en total (18 casas)."
+     "Favorito del mercado: Los Angeles Lakers, con un 66% de probabilidad de ganar (Winamax paga 1.42).",
+     "Hándicap habitual: Los Angeles Lakers -6,5 (17 casas).",
+     "El mercado espera unos 233,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -838,9 +838,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Portland Trail Blazers",
-      "odds": 1.68,
-      "prob": 56.6,
-      "edge": -2.9,
+      "odds": 1.64,
+      "prob": 56.5,
+      "edge": -4.4,
       "k": [
        "h2h",
        "Portland Trail Blazers",
@@ -849,30 +849,13 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 57%, pero Winamax paga 1.68 (implica un 60%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Total de puntos",
-      "selection": "Más de 231,5",
-      "odds": 1.92,
-      "prob": 50.5,
-      "edge": 0,
-      "k": [
-       "totals",
-       "Over",
-       null,
-       231.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 15 casas le dan un 50% y el mejor precio que he visto es 1.92 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 56%, pero Winamax paga 1.64 (implica un 61%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Hándicap",
       "selection": "Portland Trail Blazers -2,5",
       "odds": 1.93,
-      "prob": 50.2,
+      "prob": 50.1,
       "edge": 0,
       "k": [
        "spreads",
@@ -884,6 +867,23 @@
       "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
+     },
+     {
+      "market": "Total de puntos",
+      "selection": "Menos de 231,5",
+      "odds": 1.93,
+      "prob": 50.1,
+      "edge": 0,
+      "k": [
+       "totals",
+       "Under",
+       null,
+       231.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 15 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
      }
     ],
     "verdict": {
@@ -891,9 +891,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Portland Trail Blazers, con un 57% de probabilidad de ganar (Winamax paga 1.68).",
-     "Hándicap habitual: Portland Trail Blazers -2,5 (16 casas).",
-     "El mercado espera unos 231,5 puntos en total (18 casas)."
+     "Favorito del mercado: Portland Trail Blazers, con un 57% de probabilidad de ganar (Winamax paga 1.64).",
+     "Hándicap habitual: Portland Trail Blazers -2,5 (15 casas).",
+     "El mercado espera unos 231,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -928,9 +928,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Los Angeles Clippers",
-      "odds": 1.45,
-      "prob": 63.9,
-      "edge": -5.0,
+      "odds": 1.48,
+      "prob": 63.1,
+      "edge": -4.5,
       "k": [
        "h2h",
        "Los Angeles Clippers",
@@ -939,39 +939,39 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 64%, pero Winamax paga 1.45 (implica un 69%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 63%, pero Winamax paga 1.48 (implica un 68%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
-      "selection": "Más de 227,5",
-      "odds": 1.8,
-      "prob": 51.4,
+      "selection": "Menos de 228",
+      "odds": 1.91,
+      "prob": 50.6,
       "edge": 0,
       "k": [
        "totals",
-       "Over",
+       "Under",
        null,
-       227.5
+       228.0
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 3 casas le dan un 51% y el mejor precio que he visto es 1.80 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 3 casas le dan un 51% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Hándicap",
-      "selection": "Los Angeles Clippers -5,5",
-      "odds": 1.95,
-      "prob": 50.0,
+      "selection": "Los Angeles Clippers -4,5",
+      "odds": 1.87,
+      "prob": 50.5,
       "edge": 0,
       "k": [
        "spreads",
        "Los Angeles Clippers",
        null,
-       -5.5
+       -4.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 18 casas le dan un 50% y el mejor precio que he visto es 1.95 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 5 casas le dan un 51% y el mejor precio que he visto es 1.87 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -981,9 +981,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Los Angeles Clippers, con un 64% de probabilidad de ganar (Winamax paga 1.45).",
-     "Hándicap habitual: Los Angeles Clippers -5,5 (18 casas).",
-     "El mercado espera unos 228,5 puntos en total (18 casas)."
+     "Favorito del mercado: Los Angeles Clippers, con un 63% de probabilidad de ganar (Winamax paga 1.48).",
+     "Hándicap habitual: Los Angeles Clippers -5 (17 casas).",
+     "El mercado espera unos 227,5 puntos en total (17 casas)."
     ],
     "inj": {
      "home": [
@@ -1020,9 +1020,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Philadelphia 76ers",
-      "odds": 1.7,
+      "odds": 1.72,
       "prob": 55.5,
-      "edge": -3.3,
+      "edge": -2.6,
       "k": [
        "h2h",
        "Philadelphia 76ers",
@@ -1031,30 +1031,13 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 56%, pero Winamax paga 1.70 (implica un 59%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Philadelphia 76ers -2,5",
-      "odds": 1.93,
-      "prob": 50.5,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Philadelphia 76ers",
-       null,
-       -2.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 9 casas le dan un 51% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 56%, pero Winamax paga 1.72 (implica un 58%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
       "selection": "Menos de 235,5",
-      "odds": 1.95,
-      "prob": 50.3,
+      "odds": 1.92,
+      "prob": 50.5,
       "edge": 0,
       "k": [
        "totals",
@@ -1063,7 +1046,24 @@
        235.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 50% y el mejor precio que he visto es 1.95 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 51% y el mejor precio que he visto es 1.92 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Philadelphia 76ers -2,5",
+      "odds": 1.93,
+      "prob": 50.2,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Philadelphia 76ers",
+       null,
+       -2.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -1073,7 +1073,7 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Philadelphia 76ers, con un 56% de probabilidad de ganar (Winamax paga 1.70).",
+     "Favorito del mercado: Philadelphia 76ers, con un 55% de probabilidad de ganar (Winamax paga 1.72).",
      "Hándicap habitual: Philadelphia 76ers -2,5 (11 casas).",
      "El mercado espera unos 235,5 puntos en total (13 casas)."
     ],
@@ -1201,8 +1201,8 @@
       "market": "Resultado",
       "selection": "Gana Hapoel Tel Aviv",
       "odds": 1.26,
-      "prob": 73.5,
-      "edge": -5.9,
+      "prob": 73.3,
+      "edge": -6.0,
       "k": [
        "h2h",
        "Hapoel Tel Aviv",
@@ -1211,30 +1211,30 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 74%, pero Winamax paga 1.26 (implica un 79%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 73%, pero Winamax paga 1.26 (implica un 79%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
-      "selection": "Más de 175,5",
-      "odds": 1.94,
-      "prob": 50.8,
+      "selection": "Más de 176,5",
+      "odds": 1.91,
+      "prob": 50.9,
       "edge": 0,
       "k": [
        "totals",
        "Over",
        null,
-       175.5
+       176.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 12 casas le dan un 51% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Hándicap",
       "selection": "Hapoel Tel Aviv -7,5",
-      "odds": 1.93,
-      "prob": 50.1,
+      "odds": 2.03,
+      "prob": 49.8,
       "edge": 0,
       "k": [
        "spreads",
@@ -1243,7 +1243,7 @@
        -7.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 14 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 14 casas le dan un 50% y el mejor precio que he visto es 2.03 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -1255,7 +1255,7 @@
     "summary": [
      "Favorito del mercado: Hapoel Tel Aviv, con un 73% de probabilidad de ganar (Winamax paga 1.26).",
      "Hándicap habitual: Hapoel Tel Aviv -7,5 (15 casas).",
-     "El mercado espera unos 175,5 puntos en total (15 casas)."
+     "El mercado espera unos 177,5 puntos en total (15 casas)."
     ],
     "inj": {
      "home": [],
@@ -1280,9 +1280,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Anadolu Efes",
-      "odds": 1.5,
-      "prob": 61.2,
-      "edge": -5.4,
+      "odds": 1.49,
+      "prob": 61.7,
+      "edge": -5.5,
       "k": [
        "h2h",
        "Anadolu Efes",
@@ -1291,24 +1291,7 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 61%, pero Winamax paga 1.50 (implica un 67%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Anadolu Efes -3,5",
-      "odds": 1.85,
-      "prob": 52.2,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Anadolu Efes",
-       null,
-       -3.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 4 casas le dan un 52% y el mejor precio que he visto es 1.85 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 62%, pero Winamax paga 1.49 (implica un 67%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
@@ -1326,6 +1309,23 @@
       "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 50% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Anadolu Efes -4,5",
+      "odds": 2.0,
+      "prob": 48.8,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Anadolu Efes",
+       null,
+       -4.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 49% y el mejor precio que he visto es 2.00 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
      }
     ],
     "verdict": {
@@ -1333,9 +1333,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Anadolu Efes, con un 61% de probabilidad de ganar (Winamax paga 1.50).",
-     "Hándicap habitual: Anadolu Efes -4,5 (11 casas).",
-     "El mercado espera unos 173,5 puntos en total (11 casas)."
+     "Favorito del mercado: Anadolu Efes, con un 62% de probabilidad de ganar (Winamax paga 1.49).",
+     "Hándicap habitual: Anadolu Efes -4,5 (12 casas).",
+     "El mercado espera unos 173,5 puntos en total (12 casas)."
     ],
     "inj": {
      "home": [],
@@ -1360,9 +1360,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Dubai Basketball",
-      "odds": 1.52,
-      "prob": 59.9,
-      "edge": -5.9,
+      "odds": 1.64,
+      "prob": 55.6,
+      "edge": -5.4,
       "k": [
        "h2h",
        "Dubai Basketball",
@@ -1371,39 +1371,39 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 60%, pero Winamax paga 1.52 (implica un 66%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 56%, pero Winamax paga 1.64 (implica un 61%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Total de puntos",
+      "selection": "Más de 171,5",
+      "odds": 1.91,
+      "prob": 50.9,
+      "edge": 0,
+      "k": [
+       "totals",
+       "Over",
+       null,
+       171.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 8 casas le dan un 51% y el mejor precio que he visto es 1.91 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
      },
      {
       "market": "Hándicap",
-      "selection": "Dubai Basketball -3,5",
-      "odds": 1.89,
-      "prob": 51.6,
+      "selection": "Dubai Basketball -2,5",
+      "odds": 1.93,
+      "prob": 50.8,
       "edge": 0,
       "k": [
        "spreads",
        "Dubai Basketball",
        null,
-       -3.5
+       -2.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 7 casas le dan un 52% y el mejor precio que he visto es 1.89 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Total de puntos",
-      "selection": "Menos de 171,5",
-      "odds": 1.93,
-      "prob": 50.1,
-      "edge": 0,
-      "k": [
-       "totals",
-       "Under",
-       null,
-       171.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 9 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 12 casas le dan un 51% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -1413,9 +1413,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Dubai Basketball, con un 60% de probabilidad de ganar (Winamax paga 1.52).",
-     "Hándicap habitual: Dubai Basketball -3,5 (11 casas).",
-     "El mercado espera unos 171,5 puntos en total (10 casas)."
+     "Favorito del mercado: Dubai Basketball, con un 56% de probabilidad de ganar (Winamax paga 1.64).",
+     "Hándicap habitual: Dubai Basketball -2,5 (12 casas).",
+     "El mercado espera unos 171,5 puntos en total (11 casas)."
     ],
     "inj": {
      "home": [],
@@ -1441,9 +1441,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Real Madrid",
-      "odds": 1.39,
-      "prob": 65.4,
-      "edge": -6.6,
+      "odds": 1.46,
+      "prob": 62.6,
+      "edge": -5.9,
       "k": [
        "h2h",
        "Real Madrid",
@@ -1452,36 +1452,36 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 65%, pero Winamax paga 1.39 (implica un 72%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 63%, pero Winamax paga 1.46 (implica un 68%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
-      "selection": "Más de 181,5",
-      "odds": 1.86,
-      "prob": 51.5,
+      "selection": "Menos de 183,5",
+      "odds": 1.87,
+      "prob": 50.8,
       "edge": 0,
       "k": [
        "totals",
-       "Over",
+       "Under",
        null,
-       181.5
+       183.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 7 casas le dan un 52% y el mejor precio que he visto es 1.86 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.87 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Hándicap",
-      "selection": "Real Madrid -5,5",
+      "selection": "Real Madrid -4,5",
       "odds": 1.94,
-      "prob": 50.0,
+      "prob": 49.7,
       "edge": 0,
       "k": [
        "spreads",
        "Real Madrid",
        null,
-       -5.5
+       -4.5
       ],
       "ref": true,
       "why": "Winamax todavía no ofrece esta apuesta. Referencia: 9 casas le dan un 50% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
@@ -1494,9 +1494,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Real Madrid, con un 65% de probabilidad de ganar (Winamax paga 1.39).",
-     "Hándicap habitual: Real Madrid -5,5 (9 casas).",
-     "El mercado espera unos 181,5 puntos en total (11 casas)."
+     "Favorito del mercado: Real Madrid, con un 63% de probabilidad de ganar (Winamax paga 1.46).",
+     "Hándicap habitual: Real Madrid -4,5 (10 casas).",
+     "El mercado espera unos 182,5 puntos en total (12 casas)."
     ],
     "inj": {
      "home": [],
@@ -1522,9 +1522,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Saski Baskonia",
-      "odds": 8.5,
-      "prob": 12.8,
-      "edge": 1.1,
+      "odds": 7.5,
+      "prob": 11.7,
+      "edge": -1.6,
       "k": [
        "h2h",
        "Saski Baskonia",
@@ -1533,12 +1533,29 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 13%, pero Winamax paga 8.50 (implica un 12%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 12%, pero Winamax paga 7.50 (implica un 13%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Hándicap",
+      "selection": "Saski Baskonia +15,5",
+      "odds": 1.87,
+      "prob": 51.2,
+      "edge": 0,
+      "k": [
+       "spreads",
+       "Saski Baskonia",
+       null,
+       15.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 3 casas le dan un 51% y el mejor precio que he visto es 1.87 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
      },
      {
       "market": "Total de puntos",
       "selection": "Menos de 171,5",
-      "odds": 1.93,
+      "odds": 1.92,
       "prob": 50.1,
       "edge": 0,
       "k": [
@@ -1548,24 +1565,7 @@
        171.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Saski Baskonia +15,5",
-      "odds": 1.95,
-      "prob": 49.8,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Saski Baskonia",
-       null,
-       15.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 50% y el mejor precio que he visto es 1.95 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 12 casas le dan un 50% y el mejor precio que he visto es 1.92 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -1575,9 +1575,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Panathinaikos, con un 87% de probabilidad de ganar (Winamax paga 1.03).",
-     "Hándicap habitual: Panathinaikos -15,5 (11 casas).",
-     "El mercado espera unos 171,5 puntos en total (11 casas)."
+     "Favorito del mercado: Panathinaikos, con un 88% de probabilidad de ganar (Winamax paga 1.05).",
+     "Hándicap habitual: Panathinaikos -14,5 (12 casas).",
+     "El mercado espera unos 171,5 puntos en total (12 casas)."
     ],
     "inj": {
      "home": [],
@@ -1603,9 +1603,9 @@
      {
       "market": "Resultado",
       "selection": "Gana Pallacanestro Olimpia Milano",
-      "odds": 1.54,
-      "prob": 59.4,
-      "edge": -5.6,
+      "odds": 1.62,
+      "prob": 55.1,
+      "edge": -6.6,
       "k": [
        "h2h",
        "Pallacanestro Olimpia Milano",
@@ -1614,39 +1614,39 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 59%, pero Winamax paga 1.54 (implica un 65%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Total de puntos",
-      "selection": "Menos de 174,5",
-      "odds": 1.93,
-      "prob": 50.2,
-      "edge": 0,
-      "k": [
-       "totals",
-       "Under",
-       null,
-       174.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 3 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 55%, pero Winamax paga 1.62 (implica un 62%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Hándicap",
-      "selection": "Pallacanestro Olimpia Milano -3,5",
-      "odds": 1.93,
-      "prob": 49.9,
+      "selection": "Pallacanestro Olimpia Milano -2,5",
+      "odds": 1.94,
+      "prob": 50.6,
       "edge": 0,
       "k": [
        "spreads",
        "Pallacanestro Olimpia Milano",
        null,
-       -3.5
+       -2.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 51% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Total de puntos",
+      "selection": "Más de 174,5",
+      "odds": 1.93,
+      "prob": 50.0,
+      "edge": 0,
+      "k": [
+       "totals",
+       "Over",
+       null,
+       174.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 9 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -1656,9 +1656,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Pallacanestro Olimpia Milano, con un 59% de probabilidad de ganar (Winamax paga 1.54).",
-     "Hándicap habitual: Pallacanestro Olimpia Milano -3,5 (11 casas).",
-     "El mercado espera unos 173,5 puntos en total (10 casas)."
+     "Favorito del mercado: Pallacanestro Olimpia Milano, con un 55% de probabilidad de ganar (Winamax paga 1.62).",
+     "Hándicap habitual: Pallacanestro Olimpia Milano -2,5 (12 casas).",
+     "El mercado espera unos 174,5 puntos en total (11 casas)."
     ],
     "inj": {
      "home": [],
@@ -1683,9 +1683,9 @@
      {
       "market": "Resultado",
       "selection": "Gana KK Crvena zvezda",
-      "odds": 1.8,
-      "prob": 51.5,
-      "edge": -4.1,
+      "odds": 1.84,
+      "prob": 51.1,
+      "edge": -3.2,
       "k": [
        "h2h",
        "KK Crvena zvezda",
@@ -1694,13 +1694,13 @@
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 52%, pero Winamax paga 1.80 (implica un 56%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 51%, pero Winamax paga 1.84 (implica un 54%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Total de puntos",
       "selection": "Más de 164,5",
-      "odds": 1.93,
-      "prob": 50.2,
+      "odds": 1.94,
+      "prob": 50.0,
       "edge": 0,
       "k": [
        "totals",
@@ -1709,15 +1709,15 @@
        164.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 11 casas le dan un 50% y el mejor precio que he visto es 1.93 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 50% y el mejor precio que he visto es 1.94 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Hándicap",
       "selection": "KK Crvena zvezda -1,5",
-      "odds": 2.05,
-      "prob": 48.3,
+      "odds": 2.04,
+      "prob": 48.2,
       "edge": 0,
       "k": [
        "spreads",
@@ -1726,7 +1726,7 @@
        -1.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 48% y el mejor precio que he visto es 2.05 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 48% y el mejor precio que he visto es 2.04 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      }
@@ -1736,9 +1736,9 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: KK Crvena zvezda, con un 51% de probabilidad de ganar (Winamax paga 1.80).",
-     "Hándicap habitual: KK Crvena zvezda -1,5 (11 casas).",
-     "El mercado espera unos 164,5 puntos en total (11 casas)."
+     "Favorito del mercado: KK Crvena zvezda, con un 51% de probabilidad de ganar (Winamax paga 1.84).",
+     "Hándicap habitual: KK Crvena zvezda -1,5 (12 casas).",
+     "El mercado espera unos 164,5 puntos en total (12 casas)."
     ],
     "inj": {
      "home": [],
