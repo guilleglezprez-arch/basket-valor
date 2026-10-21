@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Basket Valor</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#15161c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<style>
+@property --p{syntax:'<number>';inherits:false;initial-value:0}
+:root{color-scheme:dark;--bg:#15161c;--p:#1f2129;--p2:#2a2d38;--ln:#3a3e4d;--tx:#f3f3f6;--mu:#9a9fb0;--gold:#ffcc33;--bl:#5aa0ff;--gr:#3ddc84;--rd:#ff5d6c;--c:"Barlow Condensed","Arial Narrow",sans-serif}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.4 Barlow,system-ui,sans-serif;padding-bottom:120px}
+.wrap{max-width:720px;margin:auto;padding:0 14px}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible{outline:3px solid var(--bl);outline-offset:2px}
+header{position:sticky;top:0;z-index:10;background:#15161cf2;border-bottom:1px solid var(--ln);padding:calc(env(safe-area-inset-top) + 8px) 0 8px}
+.hb{display:flex;align-items:center;gap:10px}
+.brand{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.brand img{width:38px;height:38px;border-radius:10px}
+.brand b{display:block;font:800 25px/1 var(--c);letter-spacing:.02em}
+.brand small{color:var(--mu);font-size:12px}
+.ib{height:38px;min-width:38px;padding:0 10px;border-radius:12px;border:1px solid var(--ln);background:var(--p);display:grid;place-items:center}
+.ib svg{width:20px;height:20px}.ib.spin svg{animation:sp .8s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+#inst{display:none;font-weight:600;font-size:14px}
+#days{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-top:8px}
+#days:empty{display:none}
+#days button{flex:none;padding:5px 13px;border-radius:99px;border:1px solid var(--ln);background:none;color:var(--mu);font:600 17px var(--c)}
+#days button.on{background:var(--tx);color:#15161c;border-color:var(--tx)}
+h2{font:800 24px/1 var(--c);margin:24px 0 10px}
+.demo{margin:12px 0 0;padding:9px 12px;border:1px dashed var(--gold);border-radius:10px;font-size:13px;color:var(--gold)}
+.emp,.foot{color:var(--mu);font-size:13px;text-align:center;padding:18px 8px}
+.sk{height:150px;margin:12px 0;background:linear-gradient(90deg,var(--p),var(--p2),var(--p));background-size:200% 100%;animation:sh 1.2s infinite linear}@keyframes sh{to{background-position:-200% 0}}
+/* partido: cartel con dos camisetas */
+.match{margin:12px 0;background:var(--p);cursor:pointer;overflow:hidden;border-radius:6px 22px 6px 22px}
+.poster{position:relative;height:112px;--hi:#fff;--ai:#fff}
+.poster::before,.poster::after{content:"";position:absolute;inset:0}
+.poster::before{background:var(--h);clip-path:polygon(0 0,60% 0,40% 100%,0 100%)}
+.poster::after{background:var(--a);clip-path:polygon(60% 0,100% 0,100% 100%,40% 100%)}
+.tm{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--bg);border-radius:12px;padding:6px 11px;text-align:center;line-height:1.05;box-shadow:0 0 0 3px var(--p)}
+.tm b{display:block;font:800 22px var(--c)}.tm span{font-size:12px;color:var(--mu)}
+.sd{position:absolute;z-index:1;top:0;bottom:0;display:flex;align-items:center;gap:9px;width:38%}
+.sd.l{left:12px;color:var(--hi)}.sd.r{right:12px;color:var(--ai);flex-direction:row-reverse;text-align:right}
+.sd b{display:block;font:800 36px/.9 var(--c)}.sd small{display:block;font-size:11px;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:84px}
+.bd{position:relative;flex:none;width:50px;height:50px;border-radius:50%;background:#fff;display:grid;place-items:center;font:800 14px var(--c);color:#15161c}
+.bd img{position:absolute;inset:5px;width:calc(100% - 10px);height:calc(100% - 10px);object-fit:contain;background:#fff;border-radius:50%}
+.mf{display:flex;align-items:center;gap:8px;padding:10px 14px;font-size:14px}
+.vd{font-weight:600;padding:2px 10px;border-radius:99px;border:1.5px solid var(--mu);color:var(--mu)}
+.vd.yes{background:var(--gold);border-color:var(--gold);color:#15161c}.vd.caution{border-color:var(--gold);color:var(--gold)}
+.ct{color:var(--mu)}.chev{margin-left:auto;width:20px;height:20px;transition:transform .3s}.match.open .chev{transform:rotate(180deg)}
+.xp{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}.match.open .xp{grid-template-rows:1fr}.xp>div{overflow:hidden;padding:0 12px}
+.match.open .xp>div{padding-bottom:12px}
+.full{width:100%;margin-top:6px;padding:11px;border-radius:12px;border:0;background:var(--tx);color:#15161c;font-weight:600}
+/* boleto */
+.tk{--nb:var(--p);position:relative;display:flex;align-items:stretch;margin:8px 0;background:var(--p2);border-radius:10px}
+#sh .tk{--nb:var(--bg)}
+.tk::before,.tk::after{content:"";position:absolute;left:68px;width:14px;height:14px;border-radius:50%;background:var(--nb)}
+.tk::before{top:-7px}.tk::after{bottom:-7px}
+.st{flex:none;width:75px;display:grid;place-items:center;text-align:center;border-right:2px dashed var(--bg);border-radius:10px 0 0 10px;padding:8px 0;font:800 29px/1 var(--c)}
+.st small{display:block;font:600 11px var(--c);opacity:.7;margin-bottom:2px}
+.tk.yes .st{background:var(--gold);color:#15161c}.tk.caution .st{color:var(--gold)}.tk.pass .st{color:var(--mu)}
+.tb{flex:1;min-width:0;padding:9px 6px 9px 12px}
+.mk{font-size:12px;color:var(--mu)}.tb b{display:block;font-size:16px;line-height:1.2}
+.tg{display:inline-block;margin-top:3px;font:800 14px var(--c);padding:0 8px;border-radius:99px}
+.tg.yes{background:var(--gold);color:#15161c}.tg.caution{border:1.5px solid var(--gold);color:var(--gold)}.tg.pass{border:1.5px solid var(--bl);color:var(--bl)}
+.wy{margin:8px 0 0;padding-left:10px;border-left:3px solid var(--ln);font-size:13px;color:#cfd2dc}.wy em{font-style:normal;font-weight:600;color:var(--tx)}
+.g{--c2:var(--bl);align-self:center;flex:none;position:relative;width:52px;height:52px;margin:0 12px 0 4px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--c2) calc(var(--p)*1%),var(--bg) 0)}
+.g.yes,.g.caution{--c2:var(--gold)}
+.g::before{content:"";position:absolute;inset:5px;border-radius:50%;background:var(--p2)}
+.g span{position:relative;font:800 16px var(--c)}
+.g i{position:absolute;inset:0;transform:rotate(calc(var(--i)*3.6deg))}.g i::after{content:"";position:absolute;top:-3px;left:calc(50% - 1.5px);width:3px;height:10px;background:#fff;border-radius:2px}
+.open .g,#sh.on .g{animation:fill .9s ease-out}@keyframes fill{from{--p:0}}
+.hero{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -14px;padding:0 14px}
+.hw{flex:none;width:300px;scroll-snap-align:start;--nb:var(--bg)}.hw .tk{--nb:var(--bg)}.hw small{color:var(--mu);font-size:13px}
+/* hoja de análisis */
+#sh{position:fixed;inset:0;z-index:30;pointer-events:none}
+#sh .bk{position:absolute;inset:0;background:#000b;opacity:0;transition:opacity .3s}
+#sh .pn{position:absolute;left:0;right:0;bottom:0;max-height:93%;overflow-y:auto;background:var(--bg);border-radius:22px 22px 0 0;transform:translateY(100%);transition:transform .38s cubic-bezier(.2,.9,.2,1);padding-bottom:calc(28px + env(safe-area-inset-bottom))}
+#sh.on{pointer-events:auto}#sh.on .bk{opacity:1}#sh.on .pn{transform:none}
+.gr{width:44px;height:5px;border-radius:9px;background:var(--ln);margin:9px auto}
+.pn .poster{margin:6px 0 0;border-radius:6px 22px 6px 22px;overflow:hidden}
+.vb{margin:12px 0;padding:12px 14px;border-radius:12px;background:var(--p);border-left:6px solid var(--mu)}
+.vb.yes{border-color:var(--gold)}.vb.caution{border-color:var(--gold);border-left-style:dashed}.vb.pass{border-color:var(--bl)}
+.vb b{font:800 22px/1.1 var(--c)}.vb p{margin:4px 0 0;font-size:14px;color:#cfd2dc}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:14px 0 0}
+.chips button{flex:none;padding:5px 13px;border-radius:99px;border:1px solid var(--ln);background:none;color:var(--mu);font:600 16px var(--c)}
+.chips button.on{background:var(--tx);color:#15161c;border-color:var(--tx)}
+.key{font-size:12px;color:var(--mu);margin:8px 0 0}
+.inj{background:var(--p);border-radius:12px;padding:10px 14px;font-size:14px;line-height:1.6}
+/* registro */
+.sb{margin-top:14px;padding:16px;background:var(--p);border-radius:6px 22px 6px 22px}
+.sb small{color:var(--mu);font-size:13px}.sal{font:800 76px/1 var(--c)}.sal.pos{color:var(--gr)}.sal.neg{color:var(--rd)}
+.sb svg{width:100%;height:80px;margin-top:6px;overflow:visible}
+.ln{fill:none;stroke-width:3;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:dr 1.2s ease-out forwards}@keyframes dr{to{stroke-dashoffset:0}}
+.st3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}.st3 div{background:var(--bg);border-radius:10px;padding:8px;text-align:center;font-size:12px;color:var(--mu)}.st3 b{display:block;font:800 22px/1.1 var(--c);color:var(--tx)}
+.tl{position:relative;margin:6px 0 0 8px;padding-left:22px;border-left:2px solid var(--ln)}
+.ti{position:relative;padding:8px 0 14px}.ti::before{content:"";position:absolute;left:-30px;top:12px;width:12px;height:12px;border-radius:50%;background:var(--mu);box-shadow:0 0 0 4px var(--bg)}
+.ti.won::before{background:var(--gr)}.ti.lost::before{background:var(--rd)}.ti.pending::before{background:var(--bg);border:2px solid var(--gold)}
+.ti .r{display:flex;justify-content:space-between;gap:10px}.ti b.won{color:var(--gr)}.ti b.lost{color:var(--rd)}.ti small{color:var(--mu)}
+/* dock */
+.dock{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));z-index:20;display:flex;gap:4px;padding:5px;background:#252833f5;border:1px solid var(--ln);border-radius:22px}
+.dock button{display:grid;justify-items:center;gap:1px;min-width:68px;padding:7px 8px;border:0;border-radius:17px;background:none;color:var(--mu);font-size:12px;font-weight:600}
+.dock button.on{background:var(--tx);color:#15161c}.dock svg{width:22px;height:22px}.dock em{font-style:normal}
+.chatm{padding-bottom:90px}
+.cm{max-width:90%;margin:8px 0;padding:10px 13px;border-radius:16px 16px 16px 4px;background:var(--p);font-size:15px;line-height:1.45}
+.cm.u{margin-left:auto;background:var(--tx);color:#15161c;border-radius:16px 16px 4px 16px}.cm.err{border:1.5px solid var(--rd)}
+.sug{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.sug button{padding:6px 12px;border-radius:99px;border:1px solid var(--ln);background:none;color:var(--mu);font-size:13px;text-align:left}
+.cbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(88px + env(safe-area-inset-bottom));z-index:15;width:min(692px,calc(100% - 28px));display:flex;gap:8px;align-items:flex-end;background:var(--p2);border:1px solid var(--ln);border-radius:22px;padding:6px 6px 6px 14px}
+.cbar textarea{flex:1;border:0;outline:0;resize:none;background:none;color:var(--tx);font:16px/1.4 Barlow,system-ui,sans-serif;max-height:120px;padding:8px 0}
+.cbar button{width:40px;height:40px;border-radius:50%;border:0;background:var(--gold);color:#15161c;display:grid;place-items:center}.cbar svg{width:20px;height:20px}
+.setup{background:var(--p);border-radius:14px;padding:14px;margin-top:10px}.setup input{width:100%;margin:6px 0 10px;padding:10px;border-radius:10px;border:1px solid var(--ln);background:var(--bg);color:var(--tx);font:16px Barlow,system-ui,sans-serif}
+.setup ol{padding-left:20px;margin:8px 0;font-size:14px;color:#cfd2dc}.setup .full{margin-top:0}
+.lnk{background:none;border:0;color:var(--mu);text-decoration:underline;font-size:13px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body>
+<header><div class="wrap"><div class="hb"><div class="brand"><img src="icon-192.png" alt="Logo de Basket Valor"><div><b>Basket Valor</b><small id="upd">Cargando…</small></div></div>
+<button class="ib" id="inst">Instalar</button><button class="ib" id="rf" aria-label="Actualizar datos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg></button></div>
+<div id="days"></div></div></header>
+<main class="wrap" id="m"></main>
+<div id="sh"><div class="bk"></div><div class="pn"></div></div>
+<nav class="dock">
+<button data-t="nba"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/></svg>NBA</button>
+<button data-t="euroleague"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4v1a3 3 0 0 0 4 3M16 6h4v1a3 3 0 0 1-4 3M12 13v4M8 20h8M10 17h4"/></svg>Euroliga</button>
+<button data-t="log"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4M4 20h16M8 15l4-5 3 3 5-7"/></svg><span>Registro</span><em id="bal"></em></button>
+<button data-t="chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Pregunta</button>
+</nav>
+<script src="config.js"></script>
+<script>
+const AI_URL=(window.BV&&window.BV.AI_URL)||'';
+let D=null,tab='nba',day='all',ALL=[],SG=null,SF='all',MIN_EDGE=5,MIN_PROB=55,T0=0;
+const $=s=>document.querySelector(s),main=$('#m'),RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const hm=s=>new Date(s).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
+const dw=s=>new Date(s).toLocaleDateString('es-ES',{weekday:'short',day:'numeric'});
+const dk=s=>new Date(s).toLocaleDateString('sv-SE');
+const E={style:'currency',currency:'EUR'},M=n=>n.toLocaleString('es-ES',{...E,signDisplay:'always'}),F=n=>n.toLocaleString('es-ES',E);
+const P=n=>Math.round(n)+'%';
+const info=p=>{const imp=100/p.odds,edge=p.prob-imp;return{imp,edge,val:edge>=MIN_EDGE&&p.prob>=MIN_PROB}};
+const V={yes:'Alto valor',caution:'Valor',pass:'Recomendada'};
+const vOf=p=>p.v||(info(p).val?'caution':p.rec?'pass':'none');
+const lum=c=>{const n=parseInt(c.slice(1),16);return(.299*(n>>16)+.587*(n>>8&255)+.114*(n&255))/255};
+const inkOn=c=>lum(c)>.6?'#15161c':'#fff';
+const bd=t=>`<div class="bd">${t.abbr}${t.logo?`<img src="${t.logo}" alt="" loading="lazy" onerror="this.remove()">`:''}</div>`;
+const poster=g=>`<div class="poster" style="--h:${g.home.color};--a:${g.away.color};--hi:${inkOn(g.home.color)};--ai:${inkOn(g.away.color)}"><div class="sd l">${bd(g.home)}<div><b>${g.home.abbr}</b><small>${g.home.name}</small></div></div><div class="tm"><b>${hm(g.time)}</b><span>${dw(g.time)}</span></div><div class="sd r">${bd(g.away)}<div><b>${g.away.abbr}</b><small>${g.away.name}</small></div></div></div>`;
+const gauge=(p,v)=>`<div class="g ${v}" style="--p:${p.prob};--i:${100/p.odds}" title="Probabilidad según otras casas; la marca blanca es lo que implica la cuota de Winamax"><i></i><span>${Math.round(p.prob)}</span></div>`;
+function tk(p,full){
+  const i=info(p),v=vOf(p),ev=(p.prob/100*p.odds-1)*100;
+  const tag=v!=='none'?`<span class="tg ${v}">${V[v]}${v==='pass'?'':' +'+i.edge.toFixed(1)}</span>`:'';
+  const why=full&&p.why&&v!=='none'?`<p class="wy">${v==='pass'?'':`<em>Beneficio esperado: ${ev>=0?'+':''}${ev.toFixed(0)}% por euro apostado.</em> `}${p.why}</p>`:'';
+  return `<div class="tk ${v}"><div class="st"><div><small>${p.ref?'Otra casa':'Cuota'}</small>${p.odds.toFixed(2)}</div></div><div class="tb"><span class="mk">${p.market}</span><b>${p.selection}</b>${tag}${why}</div>${gauge(p,v)}</div>`;
+}
+function match(g,i){
+  const c={};g.picks.forEach(p=>{const v=vOf(p);c[v]=(c[v]||0)+1});
+  const lv=g.verdict?g.verdict.level:'pass',L={yes:'Alto valor',caution:'Con cautela',pass:'Sin valor'}[lv];
+  return `<article class="match" data-i="${i}">${poster(g)}<div class="mf"><span class="vd ${lv}">${L}</span>${c.yes?`<span class="ct">${c.yes} de alto valor</span>`:''}${c.caution?`<span class="ct">${c.caution} con valor</span>`:''}<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="xp"><div>${g.picks.slice(0,3).map(p=>tk(p)).join('')||'<p class="emp">Aún no hay cuotas de este partido.</p>'}<button class="full" data-o="${i}">Ver análisis completo</button></div></div></article>`;
+}
+function viewGames(){
+  if(!ALL.length)return '<p class="emp">No hay partidos en las próximas 48 horas.</p>';
+  const tops=ALL.flatMap((g,i)=>g.picks.map(p=>({g,p,i,e:info(p).edge,v:vOf(p)}))).filter(x=>x.v==='yes'||x.v==='caution').sort((a,b)=>(a.v!=='yes')-(b.v!=='yes')||b.e-a.e).slice(0,6);
+  const hero=tops.length?`<h2>Mejores valores</h2><div class="hero">${tops.map(x=>`<div class="hw" data-o="${x.i}"><small>${x.g.home.abbr} contra ${x.g.away.abbr}, ${hm(x.g.time)}</small>${tk(x.p)}</div>`).join('')}</div>`:'';
+  const list=ALL.map((g,i)=>[g,i]).filter(([g])=>day==='all'||dk(g.time)===day);
+  const dg=D.diag&&D.diag[tab],dgl=dg?`<p class="key">Winamax tiene cuotas en ${dg.con_winamax} de ${dg.partidos} partidos. Otras casas, en ${dg.con_cuotas}. Winamax las publica pocas horas antes de cada partido.</p>`:'';
+  return hero+'<h2>Partidos</h2>'+dgl+list.map(([g,i])=>match(g,i)).join('')+'<p class="foot">Las probabilidades son estimaciones, no garantías. Solo mayores de 18 años. Juega con responsabilidad.</p>';
+}
+const cat=m=>/^Resultado/.test(m)?'Resultado':/^Hándicap/.test(m)?'Hándicap':/^Total/.test(m)?'Totales':'Jugadores';
+function plist(){
+  const T={yes:'Alto valor',caution:'Valor con cautela',pass:'Más probables, sin valor'};let last='',h='';
+  SG.picks.filter(p=>SF==='all'||cat(p.market)===SF).forEach(p=>{const v=vOf(p);if(v!==last){h+=`<h2>${T[v]||'Otras'}</h2>`;last=v}h+=tk(p,true)});
+  return h||'<p class="emp">No hay apuestas en esta categoría.</p>';
+}
+function openSheet(i){
+  const g=ALL[i];if(!g)return;SG=g;SF='all';const cs=['all',...new Set(g.picks.map(p=>cat(p.market)))],vd=g.verdict;
+  const inj=g.inj&&(g.inj.home.length||g.inj.away.length)?`<h2>Bajas y dudas</h2><div class="inj">${[[g.home,g.inj.home],[g.away,g.inj.away]].filter(x=>x[1].length).map(x=>`<b>${x[0].name}:</b> ${x[1].join(', ')}`).join('<br>')}</div>`:'';
+  const sm=g.summary&&g.summary.length?`<h2>Resumen del partido</h2><div class="inj">${g.summary.map(s=>`<p style="margin:0 0 6px">${s}</p>`).join('')}<p style="margin:6px 0 0;color:var(--mu);font-size:13px">Todavía no incluye estadísticas por equipo (triples, rebotes, ritmo) ni emparejamientos entre jugadores.</p></div>`:'';
+  $('#sh .pn').innerHTML=`<div class="gr"></div><div class="wrap">${poster(g)}${vd?`<div class="vb ${vd.level}"><b>${{yes:'Hay apuestas de alto valor',caution:'Con cautela',pass:'La app pasaría de este partido'}[vd.level]}</b><p>${vd.text}</p></div>`:''}
+  ${sm}${g.picks.length?`<div class="chips">${cs.map(c=>`<button data-f="${c}" class="${c==='all'?'on':''}">${c==='all'?'Todo':c}</button>`).join('')}</div><p class="key">El anillo es la probabilidad según otras casas. La marca blanca es lo que implica la cuota de Winamax.</p>`:''}
+  <div id="pl">${plist()}</div>${inj}<p class="foot">Estimaciones basadas en las cuotas de otras casas, no son garantías. Una apuesta con valor también puede perderse. Apuesta solo lo que puedas permitirte perder.</p></div>`;
+  $('#sh').classList.add('on');$('#sh .pn').scrollTop=0;document.body.style.overflow='hidden';history.pushState({s:1},'');
+}
+function closeSheet(){$('#sh').classList.remove('on');document.body.style.overflow=''}
+function rows(){
+  const st=D.stake||10;let bal=0;
+  return D.log.slice().sort((a,b)=>(a.ev||a.date)<(b.ev||b.date)?-1:1).map(l=>{const pr=l.result==='won'?st*(l.odds-1):l.result==='lost'?-st:0;bal+=pr;return{...l,pr,bal}});
+}
+function viewLog(){
+  const L=D.log||[];if(!L.length)return '<p class="emp">Todavía no hay apuestas de alto valor. Cuando la app encuentre una, aparecerá aquí con su resultado.</p>';
+  const st=D.stake||10,R=rows(),done=R.filter(r=>r.result==='won'||r.result==='lost'),bal=R.length?R[R.length-1].bal:0;
+  const staked=done.length*st,ret=done.filter(r=>r.result==='won').reduce((a,r)=>a+st*r.odds,0),w=done.filter(r=>r.result==='won').length;
+  const pts=[0,...done.map(r=>r.bal)],mn=Math.min(...pts),mx=Math.max(...pts),rg=(mx-mn)||1,X=i=>pts.length>1?i*320/(pts.length-1):0,Y=v=>76-((v-mn)/rg)*72;
+  const path=pts.map((v,i)=>`${i?'L':'M'}${X(i).toFixed(1)},${Y(v).toFixed(1)}`).join('');
+  return `<div class="sb"><small>Saldo simulado, con ${F(st)} en cada apuesta de alto valor</small><div class="sal ${bal>=0?'pos':'neg'}" id="sal" data-v="${bal}">${M(bal)}</div>
+  <svg viewBox="0 0 320 80" preserveAspectRatio="none"><line x1="0" x2="320" y1="${Y(0)}" y2="${Y(0)}" stroke="#3a3e4d" stroke-dasharray="4 4"/><path class="ln" pathLength="1" d="${path}" stroke="${bal>=0?'#3ddc84':'#ff5d6c'}"/></svg>
+  <div class="st3"><div><b>${F(staked)}</b>apostado</div><div><b>${F(ret)}</b>devuelto</div><div><b>${w} de ${done.length}</b>acertadas</div></div></div>
+  <h2>Historial</h2><div class="tl">${R.slice().reverse().map(r=>`<div class="ti ${r.result}"><div class="r"><div><small>${r.date}, ${r.match||''}</small><br><b>${r.pick}</b></div><b class="${r.result}">${r.result==='pending'?'Pendiente':r.result==='void'?'Anulada':M(r.pr)}</b></div><small>Cuota ${r.odds.toFixed(2)}, saldo acumulado ${M(r.bal)}</small></div>`).join('')}</div>`;
+}
+function countUp(el,to){if(RM){return}const t0=performance.now(),f=t=>{const k=Math.min(1,(t-t0)/900);el.textContent=M(to*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f)}
+const dlabel=k=>k===dk(new Date())?'Hoy':k===dk(Date.now()+864e5)?'Mañana':dw(k+'T12:00');
+const LS=k=>{try{return localStorage.getItem(k)||''}catch(e){return ''}},LSset=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+let CH=[];
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const md=s=>esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\n/g,'<br>');
+const SYS=`Eres el asistente de Basket Valor, una app personal de análisis de apuestas de baloncesto (NBA y Euroliga). Respondes siempre en español, de forma breve y clara.
+Solo puedes usar los DATOS DE LA APP: cuotas de Winamax Francia, probabilidades estimadas con la media de otras casas (sin su margen), bajas y dudas, favorito y líneas del mercado. Todavía NO tienes estadísticas por equipo (triples, rebotes, ritmo) ni emparejamientos entre jugadores: si la pregunta los necesita, dilo claramente y no inventes datos ni estadísticas.
+Cuando el usuario te dé una cuota que ha visto: calcula la probabilidad que implica (1 dividido entre la cuota), compárala con la estimación del mercado si esa apuesta aparece en los datos y explica si ves ventaja o no y cuánta incertidumbre hay. Si no aparece en los datos, dilo y razona solo con lo que sí hay (bajas, línea de total, favorito).
+No prometas resultados: ninguna apuesta es segura y no eres asesor financiero. Si el usuario parece apostar más de lo que puede permitirse o querer recuperar pérdidas, aconséjale parar y recuérdale el juego responsable (solo mayores de 18).
+Termina con una frase de conclusión que empiece por Viable, Dudosa o No la veo, y el motivo.`;
+function ctx(){
+  if(!D||!D.leagues)return 'Sin datos.';
+  return Object.entries(D.leagues).map(([lg,G])=>G.map(g=>{
+    const pk=g.picks.map(p=>`${p.market}: ${p.selection} a ${p.odds.toFixed(2)} (otras casas ${Math.round(p.prob)}%, Winamax implica ${Math.round(100/p.odds)}%, ${V[vOf(p)]||'sin etiqueta'})`).join('; ');
+    const bj=g.inj?[...g.inj.home.map(x=>g.home.abbr+' '+x),...g.inj.away.map(x=>g.away.abbr+' '+x)].join(', '):'';
+    return `[${lg}] ${g.home.name} contra ${g.away.name}, ${new Date(g.time).toLocaleString('es-ES')}. ${(g.summary||[]).join(' ')} Bajas: ${bj||'ninguna conocida'}. Apuestas: ${pk||'sin cuotas'}`;
+  }).join('\n')).join('\n');
+}
+const msgsHtml=()=>CH.map(m=>`<div class="cm ${m.r}${m.err?' err':''}">${m.pend?'Pensando…':md(m.t)}</div>`).join('')||'<p class="emp">Aquí aparecerán tus preguntas y las respuestas.</p>';
+function viewChat(){
+  if(!AI_URL&&!LS('bv_key'))return `<h2>Pregunta a la IA</h2><div class="setup"><b>Antes de empezar, conecta la IA (gratis)</b><ol><li>Entra en aistudio.google.com/app/apikey con tu cuenta de Google.</li><li>Crea una clave y cópiala.</li><li>Pégala aquí.</li></ol>
+  <input id="kin" placeholder="Pega tu clave" autocomplete="off"><input id="min" value="gemini-2.5-flash" aria-label="Modelo"><button class="full" id="ks">Guardar y empezar</button>
+  <p class="key">La clave se guarda solo en este dispositivo, no en GitHub. En el plan gratuito, Google puede usar lo que escribas para mejorar sus productos: no pongas datos personales.</p></div>`;
+  return `<h2>Pregunta a la IA</h2><p class="key">Cuéntale una cuota que hayas visto, por ejemplo «más de 218,5 puntos a 1,90», y te dice si la ve viable con los datos de la app.</p><div id="msgs">${msgsHtml()}</div>
+  <div class="sug"><button data-q="¿Cuál es la apuesta más sólida de hoy y por qué?">La más sólida de hoy</button><button data-q="Veo un más de 218,5 puntos a 1,90. ¿Es viable?">Revisar una cuota que he visto</button><button data-q="Resúmeme los partidos de las próximas 48 horas.">Resumen de partidos</button></div>
+  <div class="cbar"><textarea id="ci" rows="1" placeholder="Escribe tu pregunta o la cuota que has visto"></textarea><button id="cs" aria-label="Enviar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></div>
+  ${AI_URL?'<p class="foot">La IA solo usa los datos de esta app y puede equivocarse. No es asesoramiento financiero.</p>':'<p class="foot"><button class="lnk" id="cfg">Cambiar clave o modelo de IA</button></p>'}`;
+}
+function refreshMsgs(){const m=$('#msgs');if(m){m.innerHTML=msgsHtml();scrollTo(0,document.body.scrollHeight)}}
+async function ask(q){
+  CH.push({r:'u',t:q});const hist=CH.filter(m=>!m.err).slice(-10).map(m=>({role:m.r==='u'?'user':'model',parts:[{text:m.t}]}));
+  CH.push({r:'m',t:'',pend:1});refreshMsgs();
+  try{
+    if(AI_URL){
+      const r=await fetch(AI_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:CH.filter(m=>!m.err&&!m.pend).slice(-8).map(m=>({r:m.r,t:m.t.slice(0,600)}))})});
+      const j=await r.json().catch(()=>({}));
+      if(!r.ok||j.error)throw new Error(j.error||'La IA ha dado un error ('+r.status+').');
+      CH[CH.length-1]={r:'m',t:j.text};refreshMsgs();return;
+    }
+    const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${LS('bv_model')||'gemini-2.5-flash'}:generateContent`,{method:'POST',headers:{'Content-Type':'application/json','x-goog-api-key':LS('bv_key')},
+      body:JSON.stringify({system_instruction:{parts:[{text:SYS+'\n\nDATOS DE LA APP:\n'+ctx()}]},contents:hist,generationConfig:{temperature:.3,maxOutputTokens:900}})});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok)throw new Error(r.status===429?'Has llegado al límite gratuito de la IA. Prueba de nuevo en unos minutos.':r.status===400||r.status===403?'La clave de IA no es válida o no tiene permiso. Pulsa «Cambiar clave o modelo de IA».':r.status===404?'Ese modelo ya no existe. Pulsa «Cambiar clave o modelo de IA» y escribe otro.':'La IA ha dado un error ('+r.status+').');
+    CH[CH.length-1]={r:'m',t:(j.candidates?.[0]?.content?.parts||[]).map(p=>p.text||'').join('')||'La IA no ha devuelto respuesta. Reformula la pregunta.'};
+  }catch(e){CH[CH.length-1]={r:'m',t:e instanceof TypeError?'No he podido conectar con la IA. Revisa tu conexión.':e.message,err:1}}
+  refreshMsgs();
+}
+function send(){const i=$('#ci');if(!i||!i.value.trim())return;const q=i.value.trim();i.value='';i.style.height='auto';ask(q)}
+function render(){
+  document.querySelectorAll('.dock button').forEach(b=>b.classList.toggle('on',b.dataset.t===tab));
+  const dEl=$('#days');
+  if(tab==='chat'){dEl.innerHTML='';main.className='wrap chatm';main.innerHTML=viewChat();scrollTo(0,document.body.scrollHeight);return}
+  main.className='wrap';
+  if(!D){main.innerHTML='<div class="sk"></div><div class="sk"></div><div class="sk"></div>';dEl.innerHTML='';return}
+  const demo=D.demo?'<div class="demo">Datos de demostración: partidos, cuotas y probabilidades inventados para probar el diseño.</div>':'';
+  if(tab==='log'){dEl.innerHTML='';main.innerHTML=demo+viewLog();const s=$('#sal');if(s)countUp(s,+s.dataset.v);return}
+  ALL=D.leagues[tab]||[];
+  const ks=[...new Set(ALL.map(g=>dk(g.time)))].sort();if(day!=='all'&&!ks.includes(day))day='all';
+  dEl.innerHTML=ks.length>1?['all',...ks].map(k=>`<button data-k="${k}" class="${k===day?'on':''}">${k==='all'?'Todos':dlabel(k)}</button>`).join(''):'';
+  main.innerHTML=demo+viewGames();
+}
+function load(manual){
+  const b=$('#rf');if(manual)b.classList.add('spin');
+  return fetch('data/picks.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{
+    D=j;T0=Date.now();MIN_EDGE=j.min_edge??5;MIN_PROB=j.min_prob??55;
+    $('#upd').textContent=j.updated?'Datos de '+new Date(j.updated).toLocaleString('es-ES',{weekday:'short',hour:'2-digit',minute:'2-digit'}):'Esperando la primera actualización';
+    if(D.log&&D.log.length){const r=rows(),v=r[r.length-1].bal;$('#bal').textContent=M(v)}
+    render();
+  }).catch(()=>{$('#upd').textContent='Sin conexión y sin datos guardados'}).finally(()=>b.classList.remove('spin'));
+}
+document.querySelector('.dock').onclick=e=>{const t=e.target.closest('button')?.dataset.t;if(t){tab=t;day='all';render();scrollTo(0,0)}};
+$('#days').onclick=e=>{const k=e.target.closest('button')?.dataset.k;if(k){day=k;render()}};
+main.addEventListener('click',e=>{const o=e.target.closest('[data-o]');if(o){openSheet(+o.dataset.o);return}const m=e.target.closest('.match');if(m)m.classList.toggle('open')});
+$('#sh').addEventListener('click',e=>{
+  if(e.target.closest('.bk'))return history.back();
+  const f=e.target.closest('[data-f]');if(f){SF=f.dataset.f;document.querySelectorAll('.chips button').forEach(b=>b.classList.toggle('on',b===f));$('#pl').innerHTML=plist()}
+});
+addEventListener('popstate',closeSheet);
+main.addEventListener('click',e=>{
+  const q=e.target.closest('[data-q]');if(q){const i=$('#ci');i.value=q.dataset.q;i.focus();return}
+  if(e.target.closest('#cs'))return send();
+  if(e.target.closest('#cfg')){LSset('bv_key','');render();return}
+  if(e.target.closest('#ks')){const k=$('#kin').value.trim();if(k){LSset('bv_key',k);LSset('bv_model',$('#min').value.trim()||'gemini-2.5-flash');render()}}
+});
+main.addEventListener('keydown',e=>{if(e.target.id==='ci'&&e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}});
+main.addEventListener('input',e=>{if(e.target.id==='ci'){e.target.style.height='auto';e.target.style.height=Math.min(120,e.target.scrollHeight)+'px'}});
+$('#rf').onclick=()=>load(true);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-T0>6e5)load()});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+let ev;addEventListener('beforeinstallprompt',e=>{e.preventDefault();ev=e;$('#inst').style.display='grid'});
+$('#inst').onclick=async()=>{if(ev){ev.prompt();await ev.userChoice;$('#inst').style.display='none'}};
+render();load();
+</script></body></html>
