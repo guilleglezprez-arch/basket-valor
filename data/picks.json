@@ -5,12 +5,12 @@
  "min_prob": 50.0,
  "log_edge": 5.0,
  "log_prob": 55.0,
- "updated": "2026-10-31T14:15:37.243451+00:00",
+ "updated": "2026-11-01T14:42:12.968413+00:00",
  "diag": {
   "nba": {
-   "partidos": 7,
-   "con_cuotas": 7,
-   "con_winamax": 7
+   "partidos": 4,
+   "con_cuotas": 4,
+   "con_winamax": 4
   },
   "euroleague": {
    "partidos": 0,
@@ -21,66 +21,339 @@
  "leagues": {
   "nba": [
    {
-    "id": "d47417c3b1a2cd427cce74c9d00f1046",
-    "time": "2026-10-31T19:10:00Z",
-    "note": "Bajas y dudas — Jazz: Lauri Markkanen (duda), Jaren Jackson Jr. (baja), Trey Alexander (baja), Jusuf Nurkic (baja). Blazers: Robert Williams III (duda), Chris Youngblood (baja), Ja Morant (baja), Shaedon Sharpe (baja). Sin apuestas de valor; estas son las más probables.",
+    "id": "e8559eaac12af915cfe6597644620c13",
+    "time": "2026-11-01T20:40:00Z",
+    "note": "Bajas y dudas — Magic: Jonathan Isaac (baja), Jalen Suggs (baja), Paolo Banchero (baja), Noah Penda (baja). Celtics: Mitchell Robinson (duda), Devin Carter (baja). Sin apuestas de valor; estas son las más probables.",
     "home": {
-     "name": "Utah Jazz",
-     "color": "#f9a01b",
-     "abbr": "UTA",
-     "logo": "https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg"
+     "name": "Orlando Magic",
+     "color": "#0077c0",
+     "abbr": "ORL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg"
     },
     "away": {
-     "name": "Portland Trail Blazers",
-     "color": "#e03a3e",
-     "abbr": "POR",
-     "logo": "https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg"
+     "name": "Boston Celtics",
+     "color": "#007a33",
+     "abbr": "BOS",
+     "logo": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
     },
     "picks": [
      {
       "market": "Resultado",
-      "selection": "Gana Portland Trail Blazers",
-      "odds": 1.29,
-      "prob": 73.1,
-      "edge": -4.4,
+      "selection": "Gana Boston Celtics",
+      "odds": 1.36,
+      "prob": 68.6,
+      "edge": -5.0,
       "k": [
        "h2h",
-       "Portland Trail Blazers",
+       "Boston Celtics",
        null,
        null
       ],
       "rec": true,
       "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 73%, pero Winamax paga 1.29 (implica un 78%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 69%, pero Winamax paga 1.36 (implica un 74%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
      },
      {
       "market": "Puntos de jugador",
-      "selection": "Scoot Henderson menos de 14,5",
-      "odds": 1.77,
-      "prob": 54.1,
+      "selection": "Paul George menos de 18,5",
+      "odds": 1.79,
+      "prob": 52.5,
       "edge": 0,
       "k": [
        "player_points",
        "Under",
-       "Scoot Henderson",
-       14.5
+       "Paul George",
+       18.5
       ],
       "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.77 en otra casa. No sé si en Winamax habrá ventaja.",
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.79 en otra casa. No sé si en Winamax habrá ventaja.",
       "rec": true,
       "v": "pass"
      },
      {
       "market": "Puntos de jugador",
-      "selection": "Lauri Markkanen menos de 22,5",
-      "odds": 1.77,
-      "prob": 53.4,
+      "selection": "Tristan da Silva menos de 10,5",
+      "odds": 1.82,
+      "prob": 52.4,
       "edge": 0,
       "k": [
        "player_points",
        "Under",
-       "Lauri Markkanen",
-       22.5
+       "Tristan da Silva",
+       10.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 52% y el mejor precio que he visto es 1.82 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "summary": [
+     "Favorito del mercado: Boston Celtics, con un 69% de probabilidad de ganar (Winamax paga 1.36).",
+     "Hándicap habitual: Boston Celtics -6,5 (16 casas).",
+     "El mercado espera unos 222 puntos en total (18 casas)."
+    ],
+    "inj": {
+     "home": [
+      "Jonathan Isaac (baja)",
+      "Jalen Suggs (baja)",
+      "Paolo Banchero (baja)",
+      "Noah Penda (baja)"
+     ],
+     "away": [
+      "Mitchell Robinson (duda)",
+      "Devin Carter (baja)"
+     ]
+    }
+   },
+   {
+    "id": "fc3e945a5be88d3f933456bc512c956d",
+    "time": "2026-11-01T22:10:00Z",
+    "note": "Bajas y dudas — Pacers: Ivica Zubac (baja), Aaron Nesmith (duda), Obi Toppin (duda), T.J. McConnell (baja). Nets: Mikel Brown Jr. (baja), Egor Demin (baja), Tyler Bilodeau (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Indiana Pacers",
+     "color": "#fdbb30",
+     "abbr": "IND",
+     "logo": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Brooklyn Nets",
+     "color": "#5b5f66",
+     "abbr": "BKN",
+     "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Indiana Pacers",
+      "odds": 1.58,
+      "prob": 60.1,
+      "edge": -3.2,
+      "k": [
+       "h2h",
+       "Indiana Pacers",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 60%, pero Winamax paga 1.58 (implica un 63%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Puntos de jugador",
+      "selection": "Keon Ellis más de 5,5",
+      "odds": 1.73,
+      "prob": 54.6,
+      "edge": 0,
+      "k": [
+       "player_points",
+       "Over",
+       "Keon Ellis",
+       5.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 55% y el mejor precio que he visto es 1.73 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Puntos de jugador",
+      "selection": "Jarace Walker menos de 10,5",
+      "odds": 1.75,
+      "prob": 53.7,
+      "edge": 0,
+      "k": [
+       "player_points",
+       "Under",
+       "Jarace Walker",
+       10.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.75 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "summary": [
+     "Favorito del mercado: Indiana Pacers, con un 60% de probabilidad de ganar (Winamax paga 1.58).",
+     "Hándicap habitual: Indiana Pacers -3,5 (18 casas).",
+     "El mercado espera unos 230,5 puntos en total (18 casas)."
+    ],
+    "inj": {
+     "home": [
+      "Ivica Zubac (baja)",
+      "Aaron Nesmith (duda)",
+      "Obi Toppin (duda)",
+      "T.J. McConnell (baja)"
+     ],
+     "away": [
+      "Mikel Brown Jr. (baja)",
+      "Egor Demin (baja)",
+      "Tyler Bilodeau (baja)"
+     ]
+    }
+   },
+   {
+    "id": "094b083ace229ca31ff360a80e35a1a8",
+    "time": "2026-11-02T01:40:00Z",
+    "note": "Bajas y dudas — Warriors: Gui Santos (duda), Draymond Green (baja), Stephen Curry (baja), Kristaps Porzingis (baja). Clippers: Yanic Konan Niederhauser (baja), Max Strus (baja), Brandon Ingram (baja), Bradley Beal (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Golden State Warriors",
+     "color": "#1d428a",
+     "abbr": "GSW",
+     "logo": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Los Angeles Clippers",
+     "color": "#c8102e",
+     "abbr": "LAC",
+     "logo": "https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Golden State Warriors",
+      "odds": 1.66,
+      "prob": 55.2,
+      "edge": -5.0,
+      "k": [
+       "h2h",
+       "Golden State Warriors",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 55%, pero Winamax paga 1.66 (implica un 60%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Puntos de jugador",
+      "selection": "Brook Lopez menos de 10,5",
+      "odds": 1.7,
+      "prob": 55.8,
+      "edge": 0,
+      "k": [
+       "player_points",
+       "Under",
+       "Brook Lopez",
+       10.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 56% y el mejor precio que he visto es 1.70 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Puntos de jugador",
+      "selection": "Darius Garland menos de 23,5",
+      "odds": 1.83,
+      "prob": 53.3,
+      "edge": 0,
+      "k": [
+       "player_points",
+       "Under",
+       "Darius Garland",
+       23.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.83 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     }
+    ],
+    "verdict": {
+     "level": "pass",
+     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
+    },
+    "summary": [
+     "Favorito del mercado: Golden State Warriors, con un 55% de probabilidad de ganar (Winamax paga 1.66).",
+     "Hándicap habitual: Golden State Warriors -2,5 (18 casas).",
+     "El mercado espera unos 220,5 puntos en total (18 casas)."
+    ],
+    "inj": {
+     "home": [
+      "Gui Santos (duda)",
+      "Draymond Green (baja)",
+      "Stephen Curry (baja)",
+      "Kristaps Porzingis (baja)"
+     ],
+     "away": [
+      "Yanic Konan Niederhauser (baja)",
+      "Max Strus (baja)",
+      "Brandon Ingram (baja)",
+      "Bradley Beal (baja)"
+     ]
+    }
+   },
+   {
+    "id": "31fc89cbf3846e545e8e41a543a71d24",
+    "time": "2026-11-02T02:10:00Z",
+    "note": "Bajas y dudas — Lakers: Ziaire Williams (duda), Adou Thiero (baja). Raptors: Kawhi Leonard (baja), Nate Bittle (baja). Sin apuestas de valor; estas son las más probables.",
+    "home": {
+     "name": "Los Angeles Lakers",
+     "color": "#552583",
+     "abbr": "LAL",
+     "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+    },
+    "away": {
+     "name": "Toronto Raptors",
+     "color": "#ce1141",
+     "abbr": "TOR",
+     "logo": "https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"
+    },
+    "picks": [
+     {
+      "market": "Resultado",
+      "selection": "Gana Los Angeles Lakers",
+      "odds": 1.66,
+      "prob": 57.7,
+      "edge": -2.6,
+      "k": [
+       "h2h",
+       "Los Angeles Lakers",
+       null,
+       null
+      ],
+      "rec": true,
+      "v": "pass",
+      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 58%, pero Winamax paga 1.66 (implica un 60%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
+     },
+     {
+      "market": "Puntos de jugador",
+      "selection": "Jakob Poeltl más de 7,5",
+      "odds": 1.78,
+      "prob": 53.9,
+      "edge": 0,
+      "k": [
+       "player_points",
+       "Over",
+       "Jakob Poeltl",
+       7.5
+      ],
+      "ref": true,
+      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.78 en otra casa. No sé si en Winamax habrá ventaja.",
+      "rec": true,
+      "v": "pass"
+     },
+     {
+      "market": "Puntos de jugador",
+      "selection": "Collin Sexton menos de 9,5",
+      "odds": 1.77,
+      "prob": 53.1,
+      "edge": 0,
+      "k": [
+       "player_points",
+       "Under",
+       "Collin Sexton",
+       9.5
       ],
       "ref": true,
       "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.77 en otra casa. No sé si en Winamax habrá ventaja.",
@@ -93,557 +366,18 @@
      "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
     },
     "summary": [
-     "Favorito del mercado: Portland Trail Blazers, con un 73% de probabilidad de ganar (Winamax paga 1.29).",
-     "Hándicap habitual: Portland Trail Blazers -8,5 (15 casas).",
-     "El mercado espera unos 232,5 puntos en total (17 casas)."
+     "Favorito del mercado: Los Angeles Lakers, con un 58% de probabilidad de ganar (Winamax paga 1.66).",
+     "Hándicap habitual: Los Angeles Lakers -3 (16 casas).",
+     "El mercado espera unos 225,5 puntos en total (18 casas)."
     ],
     "inj": {
      "home": [
-      "Lauri Markkanen (duda)",
-      "Jaren Jackson Jr. (baja)",
-      "Trey Alexander (baja)",
-      "Jusuf Nurkic (baja)"
+      "Ziaire Williams (duda)",
+      "Adou Thiero (baja)"
      ],
      "away": [
-      "Robert Williams III (duda)",
-      "Chris Youngblood (baja)",
-      "Ja Morant (baja)",
-      "Shaedon Sharpe (baja)"
-     ]
-    }
-   },
-   {
-    "id": "067d97a124c10ea2d206546384500c5e",
-    "time": "2026-10-31T22:10:00Z",
-    "note": "Bajas y dudas — Hornets: Kon Knueppel (baja), Coby White (baja), Grant Williams (baja), Kylan Boswell (baja). 76ers: LeBron James (duda), Joel Embiid (duda), Jaylen Brown (duda), Jabari Walker (baja). Sin apuestas de valor; estas son las más probables.",
-    "home": {
-     "name": "Charlotte Hornets",
-     "color": "#00788c",
-     "abbr": "CHA",
-     "logo": "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg"
-    },
-    "away": {
-     "name": "Philadelphia 76ers",
-     "color": "#006bb6",
-     "abbr": "PHI",
-     "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
-    },
-    "picks": [
-     {
-      "market": "Resultado",
-      "selection": "Gana Philadelphia 76ers",
-      "odds": 1.78,
-      "prob": 52.5,
-      "edge": -3.7,
-      "k": [
-       "h2h",
-       "Philadelphia 76ers",
-       null,
-       null
-      ],
-      "rec": true,
-      "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 52%, pero Winamax paga 1.78 (implica un 56%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Puntos de jugador",
-      "selection": "LeBron James menos de 19,5",
-      "odds": 1.81,
-      "prob": 52.8,
-      "edge": 0,
-      "k": [
-       "player_points",
-       "Under",
-       "LeBron James",
-       19.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 53% y el mejor precio que he visto es 1.81 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Puntos de jugador",
-      "selection": "Brandon Miller menos de 27,5",
-      "odds": 1.8,
-      "prob": 52.4,
-      "edge": 0,
-      "k": [
-       "player_points",
-       "Under",
-       "Brandon Miller",
-       27.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 52% y el mejor precio que he visto es 1.80 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     }
-    ],
-    "verdict": {
-     "level": "pass",
-     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
-    },
-    "summary": [
-     "Favorito del mercado: Philadelphia 76ers, con un 52% de probabilidad de ganar (Winamax paga 1.78).",
-     "Hándicap habitual: Philadelphia 76ers -1,5 (15 casas).",
-     "El mercado espera unos 215,5 puntos en total (17 casas)."
-    ],
-    "inj": {
-     "home": [
-      "Kon Knueppel (baja)",
-      "Coby White (baja)",
-      "Grant Williams (baja)",
-      "Kylan Boswell (baja)"
-     ],
-     "away": [
-      "LeBron James (duda)",
-      "Joel Embiid (duda)",
-      "Jaylen Brown (duda)",
-      "Jabari Walker (baja)"
-     ]
-    }
-   },
-   {
-    "id": "77270837bc694d198c10f42937690d75",
-    "time": "2026-10-31T23:10:00Z",
-    "note": "Bajas y dudas — Pelicans: Yves Missi (baja), Jordan Poole (baja). Hawks: Mouhamed Gueye (baja), Henri Veesaar (baja). Sin apuestas de valor; estas son las más probables.",
-    "home": {
-     "name": "New Orleans Pelicans",
-     "color": "#85714d",
-     "abbr": "NOP",
-     "logo": "https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg"
-    },
-    "away": {
-     "name": "Atlanta Hawks",
-     "color": "#e03a3e",
-     "abbr": "ATL",
-     "logo": "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"
-    },
-    "picks": [
-     {
-      "market": "Resultado",
-      "selection": "Gana Atlanta Hawks",
-      "odds": 1.52,
-      "prob": 61.9,
-      "edge": -3.9,
-      "k": [
-       "h2h",
-       "Atlanta Hawks",
-       null,
-       null
-      ],
-      "rec": true,
-      "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 62%, pero Winamax paga 1.52 (implica un 66%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Puntos de jugador",
-      "selection": "Karlo Matkovic más de 7,5",
-      "odds": 1.76,
-      "prob": 54.2,
-      "edge": 0,
-      "k": [
-       "player_points",
-       "Over",
-       "Karlo Matkovic",
-       7.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.76 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Puntos de jugador",
-      "selection": "Derik Queen menos de 11,5",
-      "odds": 1.77,
-      "prob": 53.7,
-      "edge": 0,
-      "k": [
-       "player_points",
-       "Under",
-       "Derik Queen",
-       11.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.77 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     }
-    ],
-    "verdict": {
-     "level": "pass",
-     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
-    },
-    "summary": [
-     "Favorito del mercado: Atlanta Hawks, con un 62% de probabilidad de ganar (Winamax paga 1.52).",
-     "Hándicap habitual: Atlanta Hawks -4,5 (17 casas).",
-     "El mercado espera unos 240,5 puntos en total (17 casas)."
-    ],
-    "inj": {
-     "home": [
-      "Yves Missi (baja)",
-      "Jordan Poole (baja)"
-     ],
-     "away": [
-      "Mouhamed Gueye (baja)",
-      "Henri Veesaar (baja)"
-     ]
-    }
-   },
-   {
-    "id": "6d7e1e0af6d568f4435d35a1763a3622",
-    "time": "2026-11-01T00:10:00Z",
-    "note": "Bajas y dudas — Cavaliers: Jaylon Tyson (baja), Meleek Thomas (duda). Sin apuestas de valor; estas son las más probables.",
-    "home": {
-     "name": "Milwaukee Bucks",
-     "color": "#00471b",
-     "abbr": "MIL",
-     "logo": "https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
-    },
-    "away": {
-     "name": "Cleveland Cavaliers",
-     "color": "#860038",
-     "abbr": "CLE",
-     "logo": "https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg"
-    },
-    "picks": [
-     {
-      "market": "Resultado",
-      "selection": "Gana Cleveland Cavaliers",
-      "odds": 1.24,
-      "prob": 76.0,
-      "edge": -4.7,
-      "k": [
-       "h2h",
-       "Cleveland Cavaliers",
-       null,
-       null
-      ],
-      "rec": true,
-      "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 76%, pero Winamax paga 1.24 (implica un 81%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Puntos de jugador",
-      "selection": "Evan Mobley menos de 18,5",
-      "odds": 1.75,
-      "prob": 53.6,
-      "edge": 0,
-      "k": [
-       "player_points",
-       "Under",
-       "Evan Mobley",
-       18.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.75 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Puntos de jugador",
-      "selection": "Ryan Rollins menos de 15,5",
-      "odds": 1.76,
-      "prob": 53.6,
-      "edge": 0,
-      "k": [
-       "player_points",
-       "Under",
-       "Ryan Rollins",
-       15.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 54% y el mejor precio que he visto es 1.76 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     }
-    ],
-    "verdict": {
-     "level": "pass",
-     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
-    },
-    "summary": [
-     "Favorito del mercado: Cleveland Cavaliers, con un 76% de probabilidad de ganar (Winamax paga 1.24).",
-     "Hándicap habitual: Cleveland Cavaliers -9,5 (15 casas).",
-     "El mercado espera unos 235,5 puntos en total (17 casas)."
-    ],
-    "inj": {
-     "home": [],
-     "away": [
-      "Jaylon Tyson (baja)",
-      "Meleek Thomas (duda)"
-     ]
-    }
-   },
-   {
-    "id": "863ae1092be42c6b563b2c4f099a3eb3",
-    "time": "2026-11-01T00:10:00Z",
-    "note": "Bajas y dudas — Grizzlies: Scotty Pippen Jr. (duda), Ty Jerome (duda), Quinten Post (duda). Kings: Dylan Cardwell (baja), Maxime Raynaud (baja), Keegan Murray (baja), Ben Simmons (baja). Sin apuestas de valor; estas son las más probables.",
-    "home": {
-     "name": "Memphis Grizzlies",
-     "color": "#5d76a9",
-     "abbr": "MEM",
-     "logo": "https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
-    },
-    "away": {
-     "name": "Sacramento Kings",
-     "color": "#5a2d81",
-     "abbr": "SAC",
-     "logo": "https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg"
-    },
-    "picks": [
-     {
-      "market": "Resultado",
-      "selection": "Gana Memphis Grizzlies",
-      "odds": 1.25,
-      "prob": 75.8,
-      "edge": -4.2,
-      "k": [
-       "h2h",
-       "Memphis Grizzlies",
-       null,
-       null
-      ],
-      "rec": true,
-      "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 76%, pero Winamax paga 1.25 (implica un 80%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Total de puntos",
-      "selection": "Más de 232,5",
-      "odds": 1.9,
-      "prob": 50.4,
-      "edge": 0,
-      "k": [
-       "totals",
-       "Over",
-       null,
-       232.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 5 casas le dan un 50% y el mejor precio que he visto es 1.90 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Memphis Grizzlies -8,5",
-      "odds": 1.95,
-      "prob": 50.3,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Memphis Grizzlies",
-       null,
-       -8.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 10 casas le dan un 50% y el mejor precio que he visto es 1.95 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     }
-    ],
-    "verdict": {
-     "level": "pass",
-     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
-    },
-    "summary": [
-     "Favorito del mercado: Memphis Grizzlies, con un 76% de probabilidad de ganar (Winamax paga 1.25).",
-     "Hándicap habitual: Memphis Grizzlies -8,5 (17 casas).",
-     "El mercado espera unos 231,5 puntos en total (17 casas)."
-    ],
-    "inj": {
-     "home": [
-      "Scotty Pippen Jr. (duda)",
-      "Ty Jerome (duda)",
-      "Quinten Post (duda)"
-     ],
-     "away": [
-      "Dylan Cardwell (baja)",
-      "Maxime Raynaud (baja)",
-      "Keegan Murray (baja)",
-      "Ben Simmons (baja)"
-     ]
-    }
-   },
-   {
-    "id": "06a03fb0ce0f81a970c6000fb71fdc6d",
-    "time": "2026-11-01T00:10:00Z",
-    "note": "Bajas y dudas — Spurs: Tobias Harris (baja), Jayden Quaintance (baja). Timberwolves: Anthony Edwards (baja), Donte DiVincenzo (baja). Sin apuestas de valor; estas son las más probables.",
-    "home": {
-     "name": "San Antonio Spurs",
-     "color": "#8a9299",
-     "abbr": "SAS",
-     "logo": "https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"
-    },
-    "away": {
-     "name": "Minnesota Timberwolves",
-     "color": "#236192",
-     "abbr": "MIN",
-     "logo": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg"
-    },
-    "picks": [
-     {
-      "market": "Resultado",
-      "selection": "Gana San Antonio Spurs",
-      "odds": 1.17,
-      "prob": 81.6,
-      "edge": -3.9,
-      "k": [
-       "h2h",
-       "San Antonio Spurs",
-       null,
-       null
-      ],
-      "rec": true,
-      "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 82%, pero Winamax paga 1.17 (implica un 85%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Hándicap",
-      "selection": "San Antonio Spurs -11,5",
-      "odds": 1.87,
-      "prob": 51.6,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "San Antonio Spurs",
-       null,
-       -11.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 5 casas le dan un 52% y el mejor precio que he visto es 1.87 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Total de puntos",
-      "selection": "Más de 226,5",
-      "odds": 1.95,
-      "prob": 50.0,
-      "edge": 0,
-      "k": [
-       "totals",
-       "Over",
-       null,
-       226.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 17 casas le dan un 50% y el mejor precio que he visto es 1.95 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     }
-    ],
-    "verdict": {
-     "level": "pass",
-     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
-    },
-    "summary": [
-     "Favorito del mercado: San Antonio Spurs, con un 82% de probabilidad de ganar (Winamax paga 1.17).",
-     "Hándicap habitual: San Antonio Spurs -12 (15 casas).",
-     "El mercado espera unos 226,5 puntos en total (17 casas)."
-    ],
-    "inj": {
-     "home": [
-      "Tobias Harris (baja)",
-      "Jayden Quaintance (baja)"
-     ],
-     "away": [
-      "Anthony Edwards (baja)",
-      "Donte DiVincenzo (baja)"
-     ]
-    }
-   },
-   {
-    "id": "c30d3bdf126e98ced5b9389db8617926",
-    "time": "2026-11-01T00:40:00Z",
-    "note": "Bajas y dudas — Rockets: Reed Sheppard (duda), Alperen Sengun (duda), Steven Adams (baja). Thunder: Cason Wallace (baja), Chet Holmgren (baja), Jalen Williams (baja), Alex Caruso (baja). Sin apuestas de valor; estas son las más probables.",
-    "home": {
-     "name": "Houston Rockets",
-     "color": "#ce1141",
-     "abbr": "HOU",
-     "logo": "https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg"
-    },
-    "away": {
-     "name": "Oklahoma City Thunder",
-     "color": "#007ac1",
-     "abbr": "OKC",
-     "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
-    },
-    "picks": [
-     {
-      "market": "Resultado",
-      "selection": "Gana Houston Rockets",
-      "odds": 1.68,
-      "prob": 56.4,
-      "edge": -3.1,
-      "k": [
-       "h2h",
-       "Houston Rockets",
-       null,
-       null
-      ],
-      "rec": true,
-      "v": "pass",
-      "why": "Es de las opciones más probables de este partido: las otras casas le dan un 56%, pero Winamax paga 1.68 (implica un 60%). No hay ventaja: es una recomendación por probabilidad y no una apuesta de valor."
-     },
-     {
-      "market": "Hándicap",
-      "selection": "Houston Rockets -2",
-      "odds": 1.9,
-      "prob": 51.1,
-      "edge": 0,
-      "k": [
-       "spreads",
-       "Houston Rockets",
-       null,
-       -2.0
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 4 casas le dan un 51% y el mejor precio que he visto es 1.90 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     },
-     {
-      "market": "Total de puntos",
-      "selection": "Más de 217,5",
-      "odds": 1.88,
-      "prob": 50.8,
-      "edge": 0,
-      "k": [
-       "totals",
-       "Over",
-       null,
-       217.5
-      ],
-      "ref": true,
-      "why": "Winamax todavía no ofrece esta apuesta. Referencia: 2 casas le dan un 51% y el mejor precio que he visto es 1.88 en otra casa. No sé si en Winamax habrá ventaja.",
-      "rec": true,
-      "v": "pass"
-     }
-    ],
-    "verdict": {
-     "level": "pass",
-     "text": "No hay ventaja clara frente al mercado, así que la app pasaría de este partido. Las recomendadas son las más probables, pero Winamax ya las paga a su precio justo o por debajo."
-    },
-    "summary": [
-     "Favorito del mercado: Houston Rockets, con un 56% de probabilidad de ganar (Winamax paga 1.68).",
-     "Hándicap habitual: Houston Rockets -2,5 (15 casas).",
-     "El mercado espera unos 218,5 puntos en total (17 casas)."
-    ],
-    "inj": {
-     "home": [
-      "Reed Sheppard (duda)",
-      "Alperen Sengun (duda)",
-      "Steven Adams (baja)"
-     ],
-     "away": [
-      "Cason Wallace (baja)",
-      "Chet Holmgren (baja)",
-      "Jalen Williams (baja)",
-      "Alex Caruso (baja)"
+      "Kawhi Leonard (baja)",
+      "Nate Bittle (baja)"
      ]
     }
    }
